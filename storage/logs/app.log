@@ -1459,3 +1459,54 @@ Metadata: {'effective_date': '2025-07-27', 'text': None, 'source': 'Acceso a hus
 [2025-07-27 16:34:03] [INFO] my_app_logger:    - POST /query - Ask questions
 [2025-07-27 16:34:03] [INFO] my_app_logger:    - GET /inspect - View database structure
 [2025-07-27 16:34:03] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:50:06] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:50:06] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:50:13] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:50:13] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:50:13] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:50:13] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:50:13] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:50:13] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:50:13] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:50:14] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:50:14] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.37 seconds!
+[2025-07-27 16:50:14] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:50:14] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:50:14] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:50:14] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:50:14] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:50:14] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:51:08] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:51:08] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:51:15] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:51:15] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:51:15] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:51:15] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:51:15] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:51:15] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:51:15] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:51:16] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:51:16] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.30 seconds!
+[2025-07-27 16:51:16] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:51:16] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:51:16] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:51:16] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:51:16] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:51:16] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:52:23] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:52:23] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:52:30] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:52:30] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:52:30] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:52:30] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:52:30] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:52:30] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:52:30] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:52:31] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:52:31] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.37 seconds!
+[2025-07-27 16:52:31] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:52:31] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:52:31] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:52:31] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:52:31] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:52:31] [INFO] my_app_logger:    - DELETE /clear - Clear indexes

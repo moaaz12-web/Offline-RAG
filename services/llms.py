@@ -66,7 +66,7 @@ def preload_embedding_model():
 # from langchain_groq import ChatGroq
 # groq_model = ChatGroq(
 #     model="llama-3.1-8b-instant",
-#     api_key="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"
+#     api_key=""
 
 # )
 
