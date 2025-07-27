@@ -1,0 +1,1461 @@
+[2025-07-27 12:23:00] [INFO] my_app_logger: Processed collection 'DocumentIndex': 10 documents, 15 properties
+[2025-07-27 12:23:20] [INFO] my_app_logger: 🔍 Inferring metadata from query...
+[2025-07-27 12:23:21] [INFO] my_app_logger: Available metadata: {'doc_ids': [], 'versions': [], 'effective_dates': [], 'sources': [], 'total_documents': 10}
+[2025-07-27 12:23:22] [INFO] my_app_logger: Structured metadata response: doc_id='unknown' version='unknown' effective_date='unknown'
+[2025-07-27 12:23:22] [INFO] my_app_logger: 🤖 Running C-RAG workflow...
+[2025-07-27 12:23:25] [INFO] my_app_logger: Metadata filters type: <class 'list'>
+[2025-07-27 12:23:25] [INFO] my_app_logger: Metadata filters value: []
+[2025-07-27 12:23:27] [INFO] my_app_logger: Retrieved 3 documents after filtering and reranking
+[2025-07-27 12:23:27] [INFO] my_app_logger: Retrieved documents: {'documents': "Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\nProposito\nDónde\nCuándo\nPersonas\nHabilidades \nEspeciales\nDuración\nInformación\nMateriales\nAspecto \nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempo\nEDITADO POR REVISADO POR FECHA PAG\nMARINA QUESADA BERNARDO RUIZ 28/10/2020 1\nPesador automática de pigmentos\nAcceso a husillo de la TDE de la pesadora de pigmentos\nHerramientas\n-\n2 personaS (técnico de mantenimiento)\nCertificación técnica\n-\n-\nEs obligatorio el uso de guantes y gorra de seguridad\nAyuda Visual\nProgressive Maintenance\n1. Quitar casquillo de conexión b de la bandeja de recogida del grupo a, desenroscando los dos tornillos de fijación de la parte inferior.2. Mida la distancia (H) del soporte de fijación.Desatornille las 2 PNP (1, 2), desenroscando las dos tuercas de fijación.3. Quitar los 4 tornillos M8, presentes en el punto A\nMetadata: {'title': 'SIMPTWW - CS1-OPL004.xlsx', 'total_pages': 5.0, 'version': 'unknown', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'page': 0.0, 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'page_label': '1', 'producer': 'Microsoft: Print To PDF', 'effective_date': '2025-07-27', 'creator': 'PyPDF', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'author': 'victor.fraile'}\n\nDocument: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\nProposito\nDónde\nCuándo\nPersonas\nHabilidades \nEspeciales\nDuración\nInformación\nMateriales\nAspecto \nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempo\nEDITADO POR REVISADO POR FECHA PAG\nMARINA QUESADA BERNARDO RUIZ 28/10/2020 1\nPesador automática de pigmentos\nAcceso a husillo de la TDE de la pesadora de pigmentos\nHerramientas\n-\n2 personaS (técnico de mantenimiento)\nCertificación técnica\n-\n-\nEs obligatorio el uso de guantes y gorra de seguridad\nAyuda Visual\nProgressive Maintenance\n1. Quitar casquillo de conexión b de la bandeja de recogida del grupo a, desenroscando los dos tornillos de fijación de la parte inferior.2. Mida la distancia (H) del soporte de fijación.Desatornille las 2 PNP (1, 2), desenroscando las dos tuercas de fijación.3. Quitar los 4 tornillos M8, presentes en el punto A\nMetadata: {'title': 'SIMPTWW - CS1-OPL004.xlsx', 'total_pages': 5.0, 'version': 'unknown', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'doc_id': 'unknown', 'page': 0.0, 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'page_label': '1', 'producer': 'Microsoft: Print To PDF', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'effective_date': 'unknown', 'creator': 'PyPDF', 'author': 'victor.fraile'}\n\nDocument: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\n Progressive Maintenance\nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempoAyuda Visual\nPAG\n28/10/2020 3\nFECHAREVISADO POR\nMARINA QUESADA BERNARDO RUIZ\nEDITADO POR\n8. Apoyar el grupo de guillotina y quitar los 4 tornillos. N.B: El peso del grupo de guillotina es de aprox. 50 Kg.9. Retirar el tornillo M5 que fija la hélice A10. Retire los 3 tornillos M5, para extraer la brida de centrado del sinfín.11. Quitar los 3 tornillos M5 A\nMetadata: {'title': 'SIMPTWW - CS1-OPL004.xlsx', 'total_pages': 5.0, 'version': 'unknown', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'page': 2.0, 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'page_label': '3', 'producer': 'Microsoft: Print To PDF', 'effective_date': '2025-07-27', 'creator': 'PyPDF', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'author': 'victor.fraile'}"}
+[2025-07-27 12:23:27] [INFO] my_app_logger: Retrieved documents: Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+Proposito
+Dónde
+Cuándo
+Personas
+Habilidades 
+Especiales
+Duración
+Información
+Materiales
+Aspecto 
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+Tiempo
+EDITADO POR REVISADO POR FECHA PAG
+MARINA QUESADA BERNARDO RUIZ 28/10/2020 1
+Pesador automática de pigmentos
+Acceso a husillo de la TDE de la pesadora de pigmentos
+Herramientas
+-
+2 personaS (técnico de mantenimiento)
+Certificación técnica
+-
+-
+Es obligatorio el uso de guantes y gorra de seguridad
+Ayuda Visual
+Progressive Maintenance
+1. Quitar casquillo de conexión b de la bandeja de recogida del grupo a, desenroscando los dos tornillos de fijación de la parte inferior.2. Mida la distancia (H) del soporte de fijación.Desatornille las 2 PNP (1, 2), desenroscando las dos tuercas de fijación.3. Quitar los 4 tornillos M8, presentes en el punto A
+Metadata: {'title': 'SIMPTWW - CS1-OPL004.xlsx', 'total_pages': 5.0, 'version': 'unknown', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'page': 0.0, 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'page_label': '1', 'producer': 'Microsoft: Print To PDF', 'effective_date': '2025-07-27', 'creator': 'PyPDF', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'author': 'victor.fraile'}
+
+Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+Proposito
+Dónde
+Cuándo
+Personas
+Habilidades 
+Especiales
+Duración
+Información
+Materiales
+Aspecto 
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+Tiempo
+EDITADO POR REVISADO POR FECHA PAG
+MARINA QUESADA BERNARDO RUIZ 28/10/2020 1
+Pesador automática de pigmentos
+Acceso a husillo de la TDE de la pesadora de pigmentos
+Herramientas
+-
+2 personaS (técnico de mantenimiento)
+Certificación técnica
+-
+-
+Es obligatorio el uso de guantes y gorra de seguridad
+Ayuda Visual
+Progressive Maintenance
+1. Quitar casquillo de conexión b de la bandeja de recogida del grupo a, desenroscando los dos tornillos de fijación de la parte inferior.2. Mida la distancia (H) del soporte de fijación.Desatornille las 2 PNP (1, 2), desenroscando las dos tuercas de fijación.3. Quitar los 4 tornillos M8, presentes en el punto A
+Metadata: {'title': 'SIMPTWW - CS1-OPL004.xlsx', 'total_pages': 5.0, 'version': 'unknown', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'doc_id': 'unknown', 'page': 0.0, 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'page_label': '1', 'producer': 'Microsoft: Print To PDF', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'effective_date': 'unknown', 'creator': 'PyPDF', 'author': 'victor.fraile'}
+
+Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+ Progressive Maintenance
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+TiempoAyuda Visual
+PAG
+28/10/2020 3
+FECHAREVISADO POR
+MARINA QUESADA BERNARDO RUIZ
+EDITADO POR
+8. Apoyar el grupo de guillotina y quitar los 4 tornillos. N.B: El peso del grupo de guillotina es de aprox. 50 Kg.9. Retirar el tornillo M5 que fija la hélice A10. Retire los 3 tornillos M5, para extraer la brida de centrado del sinfín.11. Quitar los 3 tornillos M5 A
+Metadata: {'title': 'SIMPTWW - CS1-OPL004.xlsx', 'total_pages': 5.0, 'version': 'unknown', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'page': 2.0, 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'page_label': '3', 'producer': 'Microsoft: Print To PDF', 'effective_date': '2025-07-27', 'creator': 'PyPDF', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'author': 'victor.fraile'}
+[2025-07-27 12:23:28] [INFO] my_app_logger: Structured grading response: grade='yes'
+[2025-07-27 12:23:30] [INFO] my_app_logger: Query processed successfully in 9.30s (C-RAG: 7.97s)
+[2025-07-27 12:24:10] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 12:24:10] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 12:24:18] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 12:24:18] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 12:24:18] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 12:24:18] [INFO] my_app_logger:    - Model services
+[2025-07-27 12:24:18] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 12:24:18] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 12:24:18] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 12:24:19] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 12:24:19] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.60 seconds!
+[2025-07-27 12:24:19] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 12:24:19] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 12:24:19] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 12:24:19] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 12:24:19] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 12:24:19] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 12:24:19] [INFO] my_app_logger: 🔍 Inferring metadata from query...
+[2025-07-27 12:24:20] [INFO] my_app_logger: QueryReturn(objects=[Object(uuid=_WeaviateUUIDInt('01329fb3-539d-4b79-a0fc-41d9ec808716'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'version': 'unknown', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'unknown', 'effective_date': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('06ac66cc-f8bd-490d-898c-c694a51201ce'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'version': 'unknown', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'unknown', 'effective_date': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('179214b6-8542-4fed-98bb-6000f0aba55c'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'version': 'unknown', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'effective_date': '2025-07-27'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('4fcd9269-ab02-4b70-a848-7b3fc90b966c'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'version': 'unknown', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'effective_date': '2025-07-27'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('527b2036-bdb5-4859-8596-4d6120142207'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'effective_date': '2025-07-27', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'version': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('c0ddd629-4128-42c3-87fa-85e334757f5a'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'version': 'unknown', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'unknown', 'effective_date': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('c303a8d6-532f-4832-aa04-2a24fcd7bda8'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'version': 'unknown', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'unknown', 'effective_date': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('d1e38c68-6d2e-4549-9a68-6324d4586a3d'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'version': 'unknown', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'unknown', 'effective_date': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('f2e7b6c0-573c-4685-9ccd-daa505f9a8e1'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'effective_date': '2025-07-27', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'version': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('f8e9547a-f1bf-4334-8d47-f57bf0093c59'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'version': 'unknown', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'effective_date': '2025-07-27'}, references=None, vector={}, collection='DocumentIndex')])
+[2025-07-27 12:24:20] [INFO] my_app_logger: Available metadata: {'doc_ids': [], 'versions': [], 'effective_dates': [], 'sources': [], 'total_documents': 10}
+[2025-07-27 12:24:21] [INFO] my_app_logger: Structured metadata response: doc_id='unknown' version='unknown' effective_date='unknown'
+[2025-07-27 12:24:21] [INFO] my_app_logger: 🤖 Running C-RAG workflow...
+[2025-07-27 12:24:24] [INFO] my_app_logger: Metadata filters type: <class 'list'>
+[2025-07-27 12:24:24] [INFO] my_app_logger: Metadata filters value: []
+[2025-07-27 12:24:27] [INFO] my_app_logger: Retrieved 3 documents after filtering and reranking
+[2025-07-27 12:24:27] [INFO] my_app_logger: Retrieved documents: {'documents': "Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\nProposito\nDónde\nCuándo\nPersonas\nHabilidades \nEspeciales\nDuración\nInformación\nMateriales\nAspecto \nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempo\nEDITADO POR REVISADO POR FECHA PAG\nMARINA QUESADA BERNARDO RUIZ 28/10/2020 1\nPesador automática de pigmentos\nAcceso a husillo de la TDE de la pesadora de pigmentos\nHerramientas\n-\n2 personaS (técnico de mantenimiento)\nCertificación técnica\n-\n-\nEs obligatorio el uso de guantes y gorra de seguridad\nAyuda Visual\nProgressive Maintenance\n1. Quitar casquillo de conexión b de la bandeja de recogida del grupo a, desenroscando los dos tornillos de fijación de la parte inferior.2. Mida la distancia (H) del soporte de fijación.Desatornille las 2 PNP (1, 2), desenroscando las dos tuercas de fijación.3. Quitar los 4 tornillos M8, presentes en el punto A\nMetadata: {'author': 'victor.fraile', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'page_label': '1', 'producer': 'Microsoft: Print To PDF', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'creator': 'PyPDF', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'total_pages': 5.0, 'effective_date': '2025-07-27', 'page': 0.0, 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'version': 'unknown'}\n\nDocument: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\nProposito\nDónde\nCuándo\nPersonas\nHabilidades \nEspeciales\nDuración\nInformación\nMateriales\nAspecto \nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempo\nEDITADO POR REVISADO POR FECHA PAG\nMARINA QUESADA BERNARDO RUIZ 28/10/2020 1\nPesador automática de pigmentos\nAcceso a husillo de la TDE de la pesadora de pigmentos\nHerramientas\n-\n2 personaS (técnico de mantenimiento)\nCertificación técnica\n-\n-\nEs obligatorio el uso de guantes y gorra de seguridad\nAyuda Visual\nProgressive Maintenance\n1. Quitar casquillo de conexión b de la bandeja de recogida del grupo a, desenroscando los dos tornillos de fijación de la parte inferior.2. Mida la distancia (H) del soporte de fijación.Desatornille las 2 PNP (1, 2), desenroscando las dos tuercas de fijación.3. Quitar los 4 tornillos M8, presentes en el punto A\nMetadata: {'page_label': '1', 'creator': 'PyPDF', 'doc_id': 'unknown', 'author': 'victor.fraile', 'producer': 'Microsoft: Print To PDF', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'total_pages': 5.0, 'effective_date': 'unknown', 'page': 0.0, 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'version': 'unknown'}\n\nDocument: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\n Progressive Maintenance\nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempoAyuda Visual\nPAG\n28/10/2020 3\nFECHAREVISADO POR\nMARINA QUESADA BERNARDO RUIZ\nEDITADO POR\n8. Apoyar el grupo de guillotina y quitar los 4 tornillos. N.B: El peso del grupo de guillotina es de aprox. 50 Kg.9. Retirar el tornillo M5 que fija la hélice A10. Retire los 3 tornillos M5, para extraer la brida de centrado del sinfín.11. Quitar los 3 tornillos M5 A\nMetadata: {'page_label': '3', 'creator': 'PyPDF', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'author': 'victor.fraile', 'producer': 'Microsoft: Print To PDF', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'total_pages': 5.0, 'effective_date': '2025-07-27', 'page': 2.0, 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'version': 'unknown'}"}
+[2025-07-27 12:24:27] [INFO] my_app_logger: Retrieved documents: Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+Proposito
+Dónde
+Cuándo
+Personas
+Habilidades 
+Especiales
+Duración
+Información
+Materiales
+Aspecto 
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+Tiempo
+EDITADO POR REVISADO POR FECHA PAG
+MARINA QUESADA BERNARDO RUIZ 28/10/2020 1
+Pesador automática de pigmentos
+Acceso a husillo de la TDE de la pesadora de pigmentos
+Herramientas
+-
+2 personaS (técnico de mantenimiento)
+Certificación técnica
+-
+-
+Es obligatorio el uso de guantes y gorra de seguridad
+Ayuda Visual
+Progressive Maintenance
+1. Quitar casquillo de conexión b de la bandeja de recogida del grupo a, desenroscando los dos tornillos de fijación de la parte inferior.2. Mida la distancia (H) del soporte de fijación.Desatornille las 2 PNP (1, 2), desenroscando las dos tuercas de fijación.3. Quitar los 4 tornillos M8, presentes en el punto A
+Metadata: {'author': 'victor.fraile', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'page_label': '1', 'producer': 'Microsoft: Print To PDF', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'creator': 'PyPDF', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'total_pages': 5.0, 'effective_date': '2025-07-27', 'page': 0.0, 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'version': 'unknown'}
+
+Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+Proposito
+Dónde
+Cuándo
+Personas
+Habilidades 
+Especiales
+Duración
+Información
+Materiales
+Aspecto 
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+Tiempo
+EDITADO POR REVISADO POR FECHA PAG
+MARINA QUESADA BERNARDO RUIZ 28/10/2020 1
+Pesador automática de pigmentos
+Acceso a husillo de la TDE de la pesadora de pigmentos
+Herramientas
+-
+2 personaS (técnico de mantenimiento)
+Certificación técnica
+-
+-
+Es obligatorio el uso de guantes y gorra de seguridad
+Ayuda Visual
+Progressive Maintenance
+1. Quitar casquillo de conexión b de la bandeja de recogida del grupo a, desenroscando los dos tornillos de fijación de la parte inferior.2. Mida la distancia (H) del soporte de fijación.Desatornille las 2 PNP (1, 2), desenroscando las dos tuercas de fijación.3. Quitar los 4 tornillos M8, presentes en el punto A
+Metadata: {'page_label': '1', 'creator': 'PyPDF', 'doc_id': 'unknown', 'author': 'victor.fraile', 'producer': 'Microsoft: Print To PDF', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'total_pages': 5.0, 'effective_date': 'unknown', 'page': 0.0, 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'version': 'unknown'}
+
+Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+ Progressive Maintenance
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+TiempoAyuda Visual
+PAG
+28/10/2020 3
+FECHAREVISADO POR
+MARINA QUESADA BERNARDO RUIZ
+EDITADO POR
+8. Apoyar el grupo de guillotina y quitar los 4 tornillos. N.B: El peso del grupo de guillotina es de aprox. 50 Kg.9. Retirar el tornillo M5 que fija la hélice A10. Retire los 3 tornillos M5, para extraer la brida de centrado del sinfín.11. Quitar los 3 tornillos M5 A
+Metadata: {'page_label': '3', 'creator': 'PyPDF', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'author': 'victor.fraile', 'producer': 'Microsoft: Print To PDF', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'total_pages': 5.0, 'effective_date': '2025-07-27', 'page': 2.0, 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'version': 'unknown'}
+[2025-07-27 12:26:04] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 12:26:04] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 12:26:56] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 12:26:56] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 12:26:56] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 12:26:56] [INFO] my_app_logger:    - Model services
+[2025-07-27 12:26:56] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 12:26:56] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 12:26:56] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 12:26:57] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 12:26:57] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.39 seconds!
+[2025-07-27 12:26:57] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 12:26:57] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 12:26:57] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 12:26:57] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 12:26:57] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 12:26:57] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 12:26:57] [INFO] my_app_logger: 🔍 Inferring metadata from query...
+[2025-07-27 12:26:57] [INFO] my_app_logger: QueryReturn(objects=[Object(uuid=_WeaviateUUIDInt('01329fb3-539d-4b79-a0fc-41d9ec808716'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'effective_date': 'unknown', 'version': 'unknown', 'doc_id': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('06ac66cc-f8bd-490d-898c-c694a51201ce'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'effective_date': 'unknown', 'version': 'unknown', 'doc_id': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('179214b6-8542-4fed-98bb-6000f0aba55c'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'effective_date': '2025-07-27', 'version': 'unknown', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('4fcd9269-ab02-4b70-a848-7b3fc90b966c'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'effective_date': '2025-07-27', 'version': 'unknown', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('527b2036-bdb5-4859-8596-4d6120142207'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'effective_date': '2025-07-27', 'version': 'unknown', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('c0ddd629-4128-42c3-87fa-85e334757f5a'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'effective_date': 'unknown', 'version': 'unknown', 'doc_id': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('c303a8d6-532f-4832-aa04-2a24fcd7bda8'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'effective_date': 'unknown', 'version': 'unknown', 'doc_id': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('d1e38c68-6d2e-4549-9a68-6324d4586a3d'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'effective_date': 'unknown', 'version': 'unknown', 'doc_id': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('f2e7b6c0-573c-4685-9ccd-daa505f9a8e1'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'effective_date': '2025-07-27', 'version': 'unknown', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('f8e9547a-f1bf-4334-8d47-f57bf0093c59'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'effective_date': '2025-07-27', 'version': 'unknown', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos'}, references=None, vector={}, collection='DocumentIndex')])
+[2025-07-27 12:26:57] [INFO] my_app_logger: Available metadata: {'doc_ids': ['Acceso a husillo de la TDE de la pesadora de pigmentos', 'unknown'], 'versions': ['unknown'], 'effective_dates': ['2025-07-27', 'unknown'], 'sources': ['Acceso a husillo de la TDE de la pesadora de pigmentos.pdf'], 'total_documents': 10}
+[2025-07-27 12:26:58] [INFO] my_app_logger: Structured metadata response: doc_id='Acceso a husillo de la TDE de la pesadora de pigmentos' version='unknown' effective_date='unknown'
+[2025-07-27 12:26:58] [INFO] my_app_logger: 🤖 Running C-RAG workflow...
+[2025-07-27 12:26:59] [INFO] my_app_logger: Filtering by doc_id: Acceso a husillo de la TDE de la pesadora de pigmentos
+[2025-07-27 12:27:02] [INFO] my_app_logger: Metadata filters type: <class 'weaviate.collections.classes.filters._FilterValue'>
+[2025-07-27 12:27:02] [INFO] my_app_logger: Metadata filters value: value='Acceso a husillo de la TDE de la pesadora de pigmentos' operator=<_Operator.EQUAL: 'Equal'> target='doc_id'
+[2025-07-27 12:27:04] [INFO] my_app_logger: Retrieved 3 documents after filtering and reranking
+[2025-07-27 12:27:04] [INFO] my_app_logger: Retrieved documents: {'documents': "Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\nProposito\nDónde\nCuándo\nPersonas\nHabilidades \nEspeciales\nDuración\nInformación\nMateriales\nAspecto \nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempo\nEDITADO POR REVISADO POR FECHA PAG\nMARINA QUESADA BERNARDO RUIZ 28/10/2020 1\nPesador automática de pigmentos\nAcceso a husillo de la TDE de la pesadora de pigmentos\nHerramientas\n-\n2 personaS (técnico de mantenimiento)\nCertificación técnica\n-\n-\nEs obligatorio el uso de guantes y gorra de seguridad\nAyuda Visual\nProgressive Maintenance\n1. Quitar casquillo de conexión b de la bandeja de recogida del grupo a, desenroscando los dos tornillos de fijación de la parte inferior.2. Mida la distancia (H) del soporte de fijación.Desatornille las 2 PNP (1, 2), desenroscando las dos tuercas de fijación.3. Quitar los 4 tornillos M8, presentes en el punto A\nMetadata: {'creator': 'PyPDF', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown', 'author': 'victor.fraile', 'total_pages': 5.0, 'page': 0.0, 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'text': None, 'page_label': '1', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'effective_date': '2025-07-27', 'producer': 'Microsoft: Print To PDF', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600)))}\n\nDocument: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\n Progressive Maintenance\nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempoAyuda Visual\nPAG\n28/10/2020 3\nFECHAREVISADO POR\nMARINA QUESADA BERNARDO RUIZ\nEDITADO POR\n8. Apoyar el grupo de guillotina y quitar los 4 tornillos. N.B: El peso del grupo de guillotina es de aprox. 50 Kg.9. Retirar el tornillo M5 que fija la hélice A10. Retire los 3 tornillos M5, para extraer la brida de centrado del sinfín.11. Quitar los 3 tornillos M5 A\nMetadata: {'creator': 'PyPDF', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown', 'author': 'victor.fraile', 'total_pages': 5.0, 'page': 2.0, 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'text': None, 'page_label': '3', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'producer': 'Microsoft: Print To PDF', 'effective_date': '2025-07-27', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600)))}\n\nDocument: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\n Progressive Maintenance\nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempo\nFECHA PAG\nMARINA QUESADA BERNARDO RUÍZ 28/10/2020 4\nEDITADO POR REVISADO POR\nAyuda Visual\n12. Retire sólo las tuercas de soporte M8 B, para facilitar el reensamble. Una vez retirado el cono dosificador, retire el sello de teflón Cysustitúyalo por el nuevo suministrado. 13. Retire la tuerca de anillo M12 A, con la llave adecuada. A continuación, retire los 8 tornillos M8 B, situados en la brida.14. Retire la lengua UNI 6604 A(5x5x25).Después de quitar la tuerca de anillo M25 B.\nMetadata: {'creator': 'PyPDF', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown', 'author': 'victor.fraile', 'total_pages': 5.0, 'page': 3.0, 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'text': None, 'page_label': '4', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'producer': 'Microsoft: Print To PDF', 'effective_date': '2025-07-27', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600)))}"}
+[2025-07-27 12:27:04] [INFO] my_app_logger: Retrieved documents: Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+Proposito
+Dónde
+Cuándo
+Personas
+Habilidades 
+Especiales
+Duración
+Información
+Materiales
+Aspecto 
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+Tiempo
+EDITADO POR REVISADO POR FECHA PAG
+MARINA QUESADA BERNARDO RUIZ 28/10/2020 1
+Pesador automática de pigmentos
+Acceso a husillo de la TDE de la pesadora de pigmentos
+Herramientas
+-
+2 personaS (técnico de mantenimiento)
+Certificación técnica
+-
+-
+Es obligatorio el uso de guantes y gorra de seguridad
+Ayuda Visual
+Progressive Maintenance
+1. Quitar casquillo de conexión b de la bandeja de recogida del grupo a, desenroscando los dos tornillos de fijación de la parte inferior.2. Mida la distancia (H) del soporte de fijación.Desatornille las 2 PNP (1, 2), desenroscando las dos tuercas de fijación.3. Quitar los 4 tornillos M8, presentes en el punto A
+Metadata: {'creator': 'PyPDF', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown', 'author': 'victor.fraile', 'total_pages': 5.0, 'page': 0.0, 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'text': None, 'page_label': '1', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'effective_date': '2025-07-27', 'producer': 'Microsoft: Print To PDF', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600)))}
+
+Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+ Progressive Maintenance
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+TiempoAyuda Visual
+PAG
+28/10/2020 3
+FECHAREVISADO POR
+MARINA QUESADA BERNARDO RUIZ
+EDITADO POR
+8. Apoyar el grupo de guillotina y quitar los 4 tornillos. N.B: El peso del grupo de guillotina es de aprox. 50 Kg.9. Retirar el tornillo M5 que fija la hélice A10. Retire los 3 tornillos M5, para extraer la brida de centrado del sinfín.11. Quitar los 3 tornillos M5 A
+Metadata: {'creator': 'PyPDF', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown', 'author': 'victor.fraile', 'total_pages': 5.0, 'page': 2.0, 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'text': None, 'page_label': '3', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'producer': 'Microsoft: Print To PDF', 'effective_date': '2025-07-27', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600)))}
+
+Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+ Progressive Maintenance
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+Tiempo
+FECHA PAG
+MARINA QUESADA BERNARDO RUÍZ 28/10/2020 4
+EDITADO POR REVISADO POR
+Ayuda Visual
+12. Retire sólo las tuercas de soporte M8 B, para facilitar el reensamble. Una vez retirado el cono dosificador, retire el sello de teflón Cysustitúyalo por el nuevo suministrado. 13. Retire la tuerca de anillo M12 A, con la llave adecuada. A continuación, retire los 8 tornillos M8 B, situados en la brida.14. Retire la lengua UNI 6604 A(5x5x25).Después de quitar la tuerca de anillo M25 B.
+Metadata: {'creator': 'PyPDF', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown', 'author': 'victor.fraile', 'total_pages': 5.0, 'page': 3.0, 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'text': None, 'page_label': '4', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'producer': 'Microsoft: Print To PDF', 'effective_date': '2025-07-27', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600)))}
+[2025-07-27 12:27:05] [INFO] my_app_logger: Structured grading response: grade='yes'
+[2025-07-27 12:27:08] [INFO] my_app_logger: Query processed successfully in 10.64s (C-RAG: 9.18s)
+[2025-07-27 15:31:13] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 15:31:13] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 15:31:20] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 15:31:20] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 15:31:20] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 15:31:20] [INFO] my_app_logger:    - Model services
+[2025-07-27 15:31:20] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 15:31:20] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 15:31:20] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 15:31:21] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 15:31:21] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.21 seconds!
+[2025-07-27 15:31:21] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 15:31:21] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 15:31:21] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 15:31:21] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 15:31:21] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 15:31:21] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 15:31:21] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 15:31:21] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 15:31:27] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 15:31:27] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 15:31:27] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 15:31:27] [INFO] my_app_logger:    - Model services
+[2025-07-27 15:31:27] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 15:31:27] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 15:31:27] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 15:31:29] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 15:31:29] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.22 seconds!
+[2025-07-27 15:31:29] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 15:31:29] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 15:31:29] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 15:31:29] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 15:31:29] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 15:31:29] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 15:36:19] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 15:36:19] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 15:36:25] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 15:36:25] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 15:36:25] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 15:36:25] [INFO] my_app_logger:    - Model services
+[2025-07-27 15:36:25] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 15:36:25] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 15:36:25] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 15:36:26] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 15:36:26] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.13 seconds!
+[2025-07-27 15:36:26] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 15:36:26] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 15:36:26] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 15:36:26] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 15:36:26] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 15:36:26] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 15:36:36] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 15:36:36] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 15:36:43] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 15:36:43] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 15:36:43] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 15:36:43] [INFO] my_app_logger:    - Model services
+[2025-07-27 15:36:43] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 15:36:43] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 15:36:43] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 15:36:44] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 15:36:44] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.19 seconds!
+[2025-07-27 15:36:44] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 15:36:44] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 15:36:44] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 15:36:44] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 15:36:44] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 15:36:44] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 15:41:31] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 15:41:31] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 15:44:11] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 15:44:11] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 15:44:11] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 15:44:11] [INFO] my_app_logger:    - Model services
+[2025-07-27 15:44:11] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 15:44:11] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 15:44:11] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 15:44:13] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 15:44:13] [INFO] my_app_logger: 🎉 RAG application startup completed in 2.75 seconds!
+[2025-07-27 15:44:13] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 15:44:13] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 15:44:13] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 15:44:13] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 15:44:13] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 15:44:13] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 15:45:05] [INFO] my_app_logger: Processing file: Acceso a husillo de la TDE de la pesadora de pigmentos.pdf (size: 1257047 bytes)
+[2025-07-27 15:45:05] [INFO] my_app_logger: Starting document ingestion for: Acceso a husillo de la TDE de la pesadora de pigmentos.pdf
+[2025-07-27 15:45:06] [INFO] my_app_logger: Extracted metadata from document: {'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'version': 'unknown', 'effective_date': '2025-07-27', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf'}
+[2025-07-27 15:45:06] [ERROR] my_app_logger: Document ingestion failed: 1 validation error for ConnectionParams
+  Value error, http.port and grpc.port must be different if using the same host [type=value_error, input_value={'http': ProtocolParams(h...rt=50051, secure=False)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-27 15:45:06] [ERROR] my_app_logger: Full error traceback for Acceso a husillo de la TDE de la pesadora de pigmentos.pdf:
+Traceback (most recent call last):
+  File "/app/tasks.py", line 53, in ingest_document_sync
+    connection_params=ConnectionParams.from_url(weaviate_url, grpc_port=50051)
+  File "/usr/local/lib/python3.10/site-packages/weaviate/connect/base.py", line 57, in from_url
+    return cls(
+  File "/usr/local/lib/python3.10/site-packages/pydantic/main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ConnectionParams
+  Value error, http.port and grpc.port must be different if using the same host [type=value_error, input_value={'http': ProtocolParams(h...rt=50051, secure=False)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-27 15:45:28] [INFO] my_app_logger: Processing file: Acceso a husillo de la TDE de la pesadora de pigmentos.pdf (size: 1257047 bytes)
+[2025-07-27 15:45:28] [INFO] my_app_logger: Starting document ingestion for: Acceso a husillo de la TDE de la pesadora de pigmentos.pdf
+[2025-07-27 15:45:28] [INFO] my_app_logger: Extracted metadata from document: {'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'version': 'unknown', 'effective_date': '2025-07-27', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf'}
+[2025-07-27 15:45:28] [ERROR] my_app_logger: Document ingestion failed: 1 validation error for ConnectionParams
+  Value error, http.port and grpc.port must be different if using the same host [type=value_error, input_value={'http': ProtocolParams(h...rt=50051, secure=False)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-27 15:45:28] [ERROR] my_app_logger: Full error traceback for Acceso a husillo de la TDE de la pesadora de pigmentos.pdf:
+Traceback (most recent call last):
+  File "/app/tasks.py", line 53, in ingest_document_sync
+    connection_params=ConnectionParams.from_url(weaviate_url, grpc_port=50051)
+  File "/usr/local/lib/python3.10/site-packages/weaviate/connect/base.py", line 57, in from_url
+    return cls(
+  File "/usr/local/lib/python3.10/site-packages/pydantic/main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ConnectionParams
+  Value error, http.port and grpc.port must be different if using the same host [type=value_error, input_value={'http': ProtocolParams(h...rt=50051, secure=False)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-27 15:46:16] [ERROR] my_app_logger: Failed to connect to Weaviate or extract schema: 1 validation error for ConnectionParams
+  Value error, http.port and grpc.port must be different if using the same host [type=value_error, input_value={'http': ProtocolParams(h...rt=50051, secure=False)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-27 15:47:29] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 15:47:29] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 15:47:51] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 15:47:51] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 15:47:51] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 15:47:51] [INFO] my_app_logger:    - Model services
+[2025-07-27 15:47:51] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 15:47:51] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 15:47:51] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 15:47:52] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 15:47:52] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.57 seconds!
+[2025-07-27 15:47:52] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 15:47:52] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 15:47:52] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 15:47:52] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 15:47:52] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 15:47:52] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 15:48:14] [ERROR] my_app_logger: Failed to connect to Weaviate or extract schema: 1 validation error for ConnectionParams
+  Value error, http.port and grpc.port must be different if using the same host [type=value_error, input_value={'http': ProtocolParams(h...rt=50051, secure=False)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-27 15:50:31] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 15:50:31] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 15:50:38] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 15:50:38] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 15:50:38] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 15:50:38] [INFO] my_app_logger:    - Model services
+[2025-07-27 15:50:38] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 15:50:38] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 15:50:38] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 15:50:39] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 15:50:39] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.30 seconds!
+[2025-07-27 15:50:39] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 15:50:39] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 15:50:39] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 15:50:39] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 15:50:39] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 15:50:39] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 15:50:42] [ERROR] my_app_logger: Failed to connect to Weaviate or extract schema: 1 validation error for ConnectionParams
+  Value error, http.port and grpc.port must be different if using the same host [type=value_error, input_value={'http': ProtocolParams(h...rt=50051, secure=False)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-27 15:50:45] [ERROR] my_app_logger: Failed to connect to Weaviate or extract schema: 1 validation error for ConnectionParams
+  Value error, http.port and grpc.port must be different if using the same host [type=value_error, input_value={'http': ProtocolParams(h...rt=50051, secure=False)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-27 15:50:49] [ERROR] my_app_logger: Failed to connect to Weaviate or extract schema: 1 validation error for ConnectionParams
+  Value error, http.port and grpc.port must be different if using the same host [type=value_error, input_value={'http': ProtocolParams(h...rt=50051, secure=False)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-27 15:52:56] [ERROR] my_app_logger: Failed to connect to Weaviate or extract schema: 1 validation error for ConnectionParams
+  Value error, http.port and grpc.port must be different if using the same host [type=value_error, input_value={'http': ProtocolParams(h...rt=50051, secure=False)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-27 15:53:05] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 15:53:05] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 15:53:11] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 15:53:11] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 15:53:11] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 15:53:11] [INFO] my_app_logger:    - Model services
+[2025-07-27 15:53:11] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 15:53:11] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 15:53:11] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 15:53:13] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 15:53:13] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.22 seconds!
+[2025-07-27 15:53:13] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 15:53:13] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 15:53:13] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 15:53:13] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 15:53:13] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 15:53:13] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 15:53:13] [ERROR] my_app_logger: Failed to connect to Weaviate or extract schema: 1 validation error for ConnectionParams
+  Value error, http.port and grpc.port must be different if using the same host [type=value_error, input_value={'http': ProtocolParams(h...rt=50051, secure=False)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-27 15:53:43] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 15:53:43] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 15:53:50] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 15:53:50] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 15:53:50] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 15:53:50] [INFO] my_app_logger:    - Model services
+[2025-07-27 15:53:50] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 15:53:50] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 15:53:50] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 15:53:52] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 15:53:52] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.56 seconds!
+[2025-07-27 15:53:52] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 15:53:52] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 15:53:52] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 15:53:52] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 15:53:52] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 15:53:52] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 15:53:54] [ERROR] my_app_logger: Failed to connect to Weaviate or extract schema: 1 validation error for ConnectionParams
+  Value error, http.port and grpc.port must be different if using the same host [type=value_error, input_value={'http': ProtocolParams(h...rt=50051, secure=False)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-27 15:54:43] [ERROR] my_app_logger: Failed to connect to Weaviate or extract schema: 1 validation error for ConnectionParams
+  Value error, http.port and grpc.port must be different if using the same host [type=value_error, input_value={'http': ProtocolParams(h...rt=50051, secure=False)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-27 15:54:59] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 15:54:59] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 15:55:07] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 15:55:07] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 15:55:07] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 15:55:07] [INFO] my_app_logger:    - Model services
+[2025-07-27 15:55:07] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 15:55:07] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 15:55:07] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 15:55:08] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 15:55:08] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.57 seconds!
+[2025-07-27 15:55:08] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 15:55:08] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 15:55:08] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 15:55:08] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 15:55:08] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 15:55:08] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 15:55:08] [ERROR] my_app_logger: Failed to connect to Weaviate or extract schema: 1 validation error for ConnectionParams
+  Value error, http.port and grpc.port must be different if using the same host [type=value_error, input_value={'http': ProtocolParams(h...rt=50051, secure=False)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-27 15:56:09] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 15:56:09] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 15:56:16] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 15:56:16] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 15:56:16] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 15:56:16] [INFO] my_app_logger:    - Model services
+[2025-07-27 15:56:16] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 15:56:16] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 15:56:16] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 15:56:17] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 15:56:17] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.14 seconds!
+[2025-07-27 15:56:17] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 15:56:17] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 15:56:17] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 15:56:17] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 15:56:17] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 15:56:17] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 15:56:41] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 15:56:41] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 15:56:59] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 15:56:59] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 15:56:59] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 15:56:59] [INFO] my_app_logger:    - Model services
+[2025-07-27 15:56:59] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 15:56:59] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 15:56:59] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 15:57:00] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 15:57:00] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.22 seconds!
+[2025-07-27 15:57:00] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 15:57:00] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 15:57:00] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 15:57:00] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 15:57:00] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 15:57:00] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 15:57:03] [ERROR] my_app_logger: Failed to connect to Weaviate or extract schema: 1 validation error for ConnectionParams
+  Value error, http.port and grpc.port must be different if using the same host [type=value_error, input_value={'http': ProtocolParams(h...rt=50051, secure=False)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-27 15:59:46] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 15:59:46] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 15:59:52] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 15:59:52] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 15:59:52] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 15:59:52] [INFO] my_app_logger:    - Model services
+[2025-07-27 15:59:52] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 15:59:52] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 15:59:52] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 15:59:53] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 15:59:53] [INFO] my_app_logger: 🎉 RAG application startup completed in 0.99 seconds!
+[2025-07-27 15:59:53] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 15:59:53] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 15:59:53] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 15:59:53] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 15:59:53] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 15:59:53] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:00:00] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:00:00] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:00:00] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:00:00] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:00:00] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:00:00] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:00:00] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:00:02] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:00:02] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.21 seconds!
+[2025-07-27 16:00:02] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:00:02] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:00:02] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:00:02] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:00:02] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:00:02] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:00:21] [ERROR] my_app_logger: Failed to connect to Weaviate or extract schema: 1 validation error for ConnectionParams
+  Value error, http.port and grpc.port must be different if using the same host [type=value_error, input_value={'http': ProtocolParams(h...rt=50051, secure=False)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-27 16:00:28] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:00:28] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:00:35] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:00:35] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:00:35] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:00:35] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:00:35] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:00:35] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:00:35] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:00:36] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:00:36] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.29 seconds!
+[2025-07-27 16:00:36] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:00:36] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:00:36] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:00:36] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:00:36] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:00:36] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:00:38] [ERROR] my_app_logger: Failed to connect to Weaviate or extract schema: 1 validation error for ConnectionParams
+  Value error, http.port and grpc.port must be different if using the same host [type=value_error, input_value={'http': ProtocolParams(h...rt=50051, secure=False)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-27 16:01:25] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:01:25] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:01:32] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:01:32] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:01:32] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:01:32] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:01:32] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:01:32] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:01:32] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:01:34] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:01:34] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.53 seconds!
+[2025-07-27 16:01:34] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:01:34] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:01:34] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:01:34] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:01:34] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:01:34] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:01:41] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:01:41] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:01:41] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:01:41] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:01:41] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:01:41] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:01:41] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:01:42] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:01:42] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.24 seconds!
+[2025-07-27 16:01:42] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:01:42] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:01:42] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:01:42] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:01:42] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:01:42] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:01:49] [INFO] my_app_logger: Processed collection 'DocumentIndex': 10 documents, 15 properties
+[2025-07-27 16:02:06] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:02:06] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:02:13] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:02:13] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:02:13] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:02:13] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:02:13] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:02:13] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:02:13] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:02:14] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:02:14] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.41 seconds!
+[2025-07-27 16:02:14] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:02:14] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:02:14] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:02:14] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:02:14] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:02:14] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:02:40] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:02:40] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:02:48] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:02:48] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:02:48] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:02:48] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:02:48] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:02:48] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:02:48] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:02:49] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:02:49] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.72 seconds!
+[2025-07-27 16:02:49] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:02:49] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:02:49] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:02:49] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:02:49] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:02:49] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:02:52] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:02:52] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:02:59] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:02:59] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:02:59] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:02:59] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:02:59] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:02:59] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:02:59] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:03:00] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:03:00] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.27 seconds!
+[2025-07-27 16:03:00] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:03:00] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:03:00] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:03:00] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:03:00] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:03:00] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:03:07] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:03:07] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:03:07] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:03:07] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:03:07] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:03:07] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:03:07] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:03:08] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:03:08] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.13 seconds!
+[2025-07-27 16:03:08] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:03:08] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:03:08] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:03:08] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:03:08] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:03:08] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:03:18] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:03:18] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:03:25] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:03:25] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:03:25] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:03:25] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:03:25] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:03:25] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:03:25] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:03:26] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:03:26] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.24 seconds!
+[2025-07-27 16:03:26] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:03:26] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:03:26] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:03:26] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:03:26] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:03:26] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:03:27] [ERROR] my_app_logger: Failed to connect to Weaviate or extract schema: 1 validation error for ConnectionParams
+  Value error, http.port and grpc.port must be different if using the same host [type=value_error, input_value={'http': ProtocolParams(h...rt=50051, secure=False)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-27 16:03:29] [ERROR] my_app_logger: Failed to connect to Weaviate or extract schema: 1 validation error for ConnectionParams
+  Value error, http.port and grpc.port must be different if using the same host [type=value_error, input_value={'http': ProtocolParams(h...rt=50051, secure=False)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-27 16:03:36] [ERROR] my_app_logger: Failed to connect to Weaviate or extract schema: 1 validation error for ConnectionParams
+  Value error, http.port and grpc.port must be different if using the same host [type=value_error, input_value={'http': ProtocolParams(h...rt=50051, secure=False)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-27 16:04:27] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:04:27] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:04:34] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:04:34] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:04:34] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:04:34] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:04:34] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:04:34] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:04:34] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:04:36] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:04:36] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.47 seconds!
+[2025-07-27 16:04:36] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:04:36] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:04:36] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:04:36] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:04:36] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:04:36] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:04:39] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:04:39] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:04:46] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:04:46] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:04:46] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:04:46] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:04:46] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:04:46] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:04:46] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:04:47] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:04:47] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.28 seconds!
+[2025-07-27 16:04:47] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:04:47] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:04:47] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:04:47] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:04:47] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:04:47] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:04:56] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:04:56] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:05:03] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:05:03] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:05:03] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:05:03] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:05:03] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:05:03] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:05:03] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:05:04] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:05:04] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.22 seconds!
+[2025-07-27 16:05:04] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:05:04] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:05:04] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:05:04] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:05:04] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:05:04] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:05:07] [INFO] my_app_logger: Processed collection 'DocumentIndex': 10 documents, 15 properties
+[2025-07-27 16:05:34] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:05:34] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:05:41] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:05:41] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:05:41] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:05:41] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:05:41] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:05:41] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:05:41] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:05:42] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:05:42] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.35 seconds!
+[2025-07-27 16:05:42] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:05:42] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:05:42] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:05:42] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:05:42] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:05:42] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:05:58] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:05:58] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:06:05] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:06:05] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:06:05] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:06:05] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:06:05] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:06:05] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:06:05] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:06:06] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:06:06] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.22 seconds!
+[2025-07-27 16:06:06] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:06:06] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:06:06] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:06:06] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:06:06] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:06:06] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:06:08] [ERROR] my_app_logger: Failed to connect to Weaviate or extract schema: 1 validation error for ConnectionParams
+  Value error, http.port and grpc.port must be different if using the same host [type=value_error, input_value={'http': ProtocolParams(h...rt=50051, secure=False)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-27 16:07:17] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:07:17] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:07:24] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:07:24] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:07:24] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:07:24] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:07:24] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:07:24] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:07:24] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:07:25] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:07:25] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.41 seconds!
+[2025-07-27 16:07:25] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:07:25] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:07:25] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:07:25] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:07:25] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:07:25] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:07:25] [INFO] my_app_logger: Processed collection 'DocumentIndex': 10 documents, 15 properties
+[2025-07-27 16:07:49] [INFO] my_app_logger: Found 1 collections to clear
+[2025-07-27 16:07:49] [INFO] my_app_logger: Successfully cleared collection 'DocumentIndex' with 10 documents
+[2025-07-27 16:07:49] [INFO] my_app_logger: ✅ Clear operation completed successfully in 0.35s
+[2025-07-27 16:07:49] [INFO] my_app_logger: 📊 Results: 1 collections cleared, 10 documents deleted
+[2025-07-27 16:08:15] [INFO] my_app_logger: Processing file: Acceso a husillo de la TDE de la pesadora de pigmentos.pdf (size: 1257047 bytes)
+[2025-07-27 16:08:15] [INFO] my_app_logger: Starting document ingestion for: Acceso a husillo de la TDE de la pesadora de pigmentos.pdf
+[2025-07-27 16:08:15] [INFO] my_app_logger: Extracted metadata from document: {'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'version': 'unknown', 'effective_date': '2025-07-27', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf'}
+[2025-07-27 16:08:15] [INFO] my_app_logger: Connected to Weaviate successfully
+[2025-07-27 16:08:15] [INFO] my_app_logger: 💾 Storing documents in Weaviate vector database...
+[2025-07-27 16:08:19] [INFO] my_app_logger: Document ingestion completed successfully in 4.31s
+[2025-07-27 16:08:43] [INFO] my_app_logger: 🔍 Inferring metadata from query...
+[2025-07-27 16:08:44] [INFO] my_app_logger: QueryReturn(objects=[Object(uuid=_WeaviateUUIDInt('07c2d769-8ebb-4299-993e-c8bafd38b1b2'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'effective_date': '2025-07-27', 'version': 'unknown', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('0f97f1d5-e0fc-48c2-989f-5e006f1439e2'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'effective_date': '2025-07-27', 'version': 'unknown', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('4e2850f0-f66e-4790-ae1b-7ebd44bb035b'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'effective_date': '2025-07-27', 'version': 'unknown', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('a1e3041f-b9ca-4eb6-9adf-a3b3637f8f37'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'effective_date': '2025-07-27', 'version': 'unknown', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('f2ce5513-86e7-4397-b129-22f4d6892208'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'effective_date': '2025-07-27', 'version': 'unknown', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos'}, references=None, vector={}, collection='DocumentIndex')])
+[2025-07-27 16:08:44] [INFO] my_app_logger: Available metadata: {'doc_ids': ['Acceso a husillo de la TDE de la pesadora de pigmentos'], 'versions': ['unknown'], 'effective_dates': ['2025-07-27'], 'sources': ['Acceso a husillo de la TDE de la pesadora de pigmentos.pdf'], 'total_documents': 5}
+[2025-07-27 16:08:45] [INFO] my_app_logger: Structured metadata response: doc_id='Acceso a husillo de la TDE de la pesadora de pigmentos' version='unknown' effective_date='2025-07-27'
+[2025-07-27 16:08:45] [INFO] my_app_logger: 🤖 Running C-RAG workflow...
+[2025-07-27 16:08:46] [INFO] my_app_logger: Filtering by doc_id: Acceso a husillo de la TDE de la pesadora de pigmentos
+[2025-07-27 16:08:46] [INFO] my_app_logger: Filtering by effective_date: 2025-07-27
+[2025-07-27 16:10:14] [INFO] my_app_logger: Metadata filters type: <class 'weaviate.collections.classes.filters._FilterAnd'>
+[2025-07-27 16:10:14] [INFO] my_app_logger: Metadata filters value: <weaviate.collections.classes.filters._FilterAnd object at 0x7f39fe82ebc0>
+[2025-07-27 16:10:17] [INFO] my_app_logger: Retrieved 3 documents after filtering and reranking
+[2025-07-27 16:10:17] [INFO] my_app_logger: Retrieved documents: {'documents': "Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\nProposito\nDónde\nCuándo\nPersonas\nHabilidades \nEspeciales\nDuración\nInformación\nMateriales\nAspecto \nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempo\nEDITADO POR REVISADO POR FECHA PAG\nMARINA QUESADA BERNARDO RUIZ 28/10/2020 1\nPesador automática de pigmentos\nAcceso a husillo de la TDE de la pesadora de pigmentos\nHerramientas\n-\n2 personaS (técnico de mantenimiento)\nCertificación técnica\n-\n-\nEs obligatorio el uso de guantes y gorra de seguridad\nAyuda Visual\nProgressive Maintenance\n1. Quitar casquillo de conexión b de la bandeja de recogida del grupo a, desenroscando los dos tornillos de fijación de la parte inferior.2. Mida la distancia (H) del soporte de fijación.Desatornille las 2 PNP (1, 2), desenroscando las dos tuercas de fijación.3. Quitar los 4 tornillos M8, presentes en el punto A\nMetadata: {'page_label': '1', 'version': 'unknown', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'total_pages': 5.0, 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'creator': 'PyPDF', 'author': 'victor.fraile', 'page': 0.0, 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'producer': 'Microsoft: Print To PDF', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'text': None, 'effective_date': '2025-07-27'}\n\nDocument: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\n Progressive Maintenance\nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempoAyuda Visual\nPAG\n28/10/2020 3\nFECHAREVISADO POR\nMARINA QUESADA BERNARDO RUIZ\nEDITADO POR\n8. Apoyar el grupo de guillotina y quitar los 4 tornillos. N.B: El peso del grupo de guillotina es de aprox. 50 Kg.9. Retirar el tornillo M5 que fija la hélice A10. Retire los 3 tornillos M5, para extraer la brida de centrado del sinfín.11. Quitar los 3 tornillos M5 A\nMetadata: {'page_label': '3', 'version': 'unknown', 'total_pages': 5.0, 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'creator': 'PyPDF', 'author': 'victor.fraile', 'page': 2.0, 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'producer': 'Microsoft: Print To PDF', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'effective_date': '2025-07-27', 'text': None}\n\nDocument: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\n Progressive Maintenance\nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempo\nFECHA PAG\nMARINA QUESADA BERNARDO RUÍZ 28/10/2020 4\nEDITADO POR REVISADO POR\nAyuda Visual\n12. Retire sólo las tuercas de soporte M8 B, para facilitar el reensamble. Una vez retirado el cono dosificador, retire el sello de teflón Cysustitúyalo por el nuevo suministrado. 13. Retire la tuerca de anillo M12 A, con la llave adecuada. A continuación, retire los 8 tornillos M8 B, situados en la brida.14. Retire la lengua UNI 6604 A(5x5x25).Después de quitar la tuerca de anillo M25 B.\nMetadata: {'page_label': '4', 'version': 'unknown', 'total_pages': 5.0, 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'page': 3.0, 'author': 'victor.fraile', 'creator': 'PyPDF', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'producer': 'Microsoft: Print To PDF', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'effective_date': '2025-07-27', 'text': None}"}
+[2025-07-27 16:10:17] [INFO] my_app_logger: Retrieved documents: Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+Proposito
+Dónde
+Cuándo
+Personas
+Habilidades 
+Especiales
+Duración
+Información
+Materiales
+Aspecto 
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+Tiempo
+EDITADO POR REVISADO POR FECHA PAG
+MARINA QUESADA BERNARDO RUIZ 28/10/2020 1
+Pesador automática de pigmentos
+Acceso a husillo de la TDE de la pesadora de pigmentos
+Herramientas
+-
+2 personaS (técnico de mantenimiento)
+Certificación técnica
+-
+-
+Es obligatorio el uso de guantes y gorra de seguridad
+Ayuda Visual
+Progressive Maintenance
+1. Quitar casquillo de conexión b de la bandeja de recogida del grupo a, desenroscando los dos tornillos de fijación de la parte inferior.2. Mida la distancia (H) del soporte de fijación.Desatornille las 2 PNP (1, 2), desenroscando las dos tuercas de fijación.3. Quitar los 4 tornillos M8, presentes en el punto A
+Metadata: {'page_label': '1', 'version': 'unknown', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'total_pages': 5.0, 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'creator': 'PyPDF', 'author': 'victor.fraile', 'page': 0.0, 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'producer': 'Microsoft: Print To PDF', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'text': None, 'effective_date': '2025-07-27'}
+
+Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+ Progressive Maintenance
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+TiempoAyuda Visual
+PAG
+28/10/2020 3
+FECHAREVISADO POR
+MARINA QUESADA BERNARDO RUIZ
+EDITADO POR
+8. Apoyar el grupo de guillotina y quitar los 4 tornillos. N.B: El peso del grupo de guillotina es de aprox. 50 Kg.9. Retirar el tornillo M5 que fija la hélice A10. Retire los 3 tornillos M5, para extraer la brida de centrado del sinfín.11. Quitar los 3 tornillos M5 A
+Metadata: {'page_label': '3', 'version': 'unknown', 'total_pages': 5.0, 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'creator': 'PyPDF', 'author': 'victor.fraile', 'page': 2.0, 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'producer': 'Microsoft: Print To PDF', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'effective_date': '2025-07-27', 'text': None}
+
+Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+ Progressive Maintenance
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+Tiempo
+FECHA PAG
+MARINA QUESADA BERNARDO RUÍZ 28/10/2020 4
+EDITADO POR REVISADO POR
+Ayuda Visual
+12. Retire sólo las tuercas de soporte M8 B, para facilitar el reensamble. Una vez retirado el cono dosificador, retire el sello de teflón Cysustitúyalo por el nuevo suministrado. 13. Retire la tuerca de anillo M12 A, con la llave adecuada. A continuación, retire los 8 tornillos M8 B, situados en la brida.14. Retire la lengua UNI 6604 A(5x5x25).Después de quitar la tuerca de anillo M25 B.
+Metadata: {'page_label': '4', 'version': 'unknown', 'total_pages': 5.0, 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'page': 3.0, 'author': 'victor.fraile', 'creator': 'PyPDF', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'producer': 'Microsoft: Print To PDF', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'effective_date': '2025-07-27', 'text': None}
+[2025-07-27 16:10:18] [INFO] my_app_logger: Structured grading response: grade='yes'
+[2025-07-27 16:10:21] [INFO] my_app_logger: Query processed successfully in 97.25s (C-RAG: 95.21s)
+[2025-07-27 16:19:05] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:19:05] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:19:13] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:19:13] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:19:13] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:19:13] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:19:13] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:19:13] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:19:13] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:19:14] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:19:14] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.24 seconds!
+[2025-07-27 16:19:14] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:19:14] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:19:14] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:19:14] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:19:14] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:19:14] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:19:14] [INFO] my_app_logger: 🔍 Inferring metadata from query...
+[2025-07-27 16:19:14] [INFO] my_app_logger: QueryReturn(objects=[Object(uuid=_WeaviateUUIDInt('07c2d769-8ebb-4299-993e-c8bafd38b1b2'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'effective_date': '2025-07-27', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'version': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('0f97f1d5-e0fc-48c2-989f-5e006f1439e2'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'effective_date': '2025-07-27', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'version': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('4e2850f0-f66e-4790-ae1b-7ebd44bb035b'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'effective_date': '2025-07-27', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'version': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('a1e3041f-b9ca-4eb6-9adf-a3b3637f8f37'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'effective_date': '2025-07-27', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'version': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('f2ce5513-86e7-4397-b129-22f4d6892208'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'effective_date': '2025-07-27', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'version': 'unknown'}, references=None, vector={}, collection='DocumentIndex')])
+[2025-07-27 16:19:14] [INFO] my_app_logger: Available metadata: {'doc_ids': ['Acceso a husillo de la TDE de la pesadora de pigmentos'], 'versions': ['unknown'], 'effective_dates': ['2025-07-27'], 'sources': ['Acceso a husillo de la TDE de la pesadora de pigmentos.pdf'], 'total_documents': 5}
+[2025-07-27 16:19:15] [INFO] my_app_logger: Structured metadata response: doc_id='Acceso a husillo de la TDE de la pesadora de pigmentos' version='unknown' effective_date='2025-07-27'
+[2025-07-27 16:19:15] [INFO] my_app_logger: 🤖 Running C-RAG workflow...
+[2025-07-27 16:19:15] [INFO] my_app_logger: Filtering by doc_id: Acceso a husillo de la TDE de la pesadora de pigmentos
+[2025-07-27 16:19:15] [INFO] my_app_logger: Filtering by effective_date: 2025-07-27
+[2025-07-27 16:19:18] [INFO] my_app_logger: Metadata filters type: <class 'weaviate.collections.classes.filters._FilterAnd'>
+[2025-07-27 16:19:18] [INFO] my_app_logger: Metadata filters value: <weaviate.collections.classes.filters._FilterAnd object at 0x7fbea6abe4d0>
+[2025-07-27 16:19:22] [INFO] my_app_logger: Retrieved 3 documents after filtering and reranking
+[2025-07-27 16:19:22] [INFO] my_app_logger: Retrieved documents: {'documents': "Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\nProposito\nDónde\nCuándo\nPersonas\nHabilidades \nEspeciales\nDuración\nInformación\nMateriales\nAspecto \nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempo\nEDITADO POR REVISADO POR FECHA PAG\nMARINA QUESADA BERNARDO RUIZ 28/10/2020 1\nPesador automática de pigmentos\nAcceso a husillo de la TDE de la pesadora de pigmentos\nHerramientas\n-\n2 personaS (técnico de mantenimiento)\nCertificación técnica\n-\n-\nEs obligatorio el uso de guantes y gorra de seguridad\nAyuda Visual\nProgressive Maintenance\n1. Quitar casquillo de conexión b de la bandeja de recogida del grupo a, desenroscando los dos tornillos de fijación de la parte inferior.2. Mida la distancia (H) del soporte de fijación.Desatornille las 2 PNP (1, 2), desenroscando las dos tuercas de fijación.3. Quitar los 4 tornillos M8, presentes en el punto A\nMetadata: {'page': 0.0, 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'author': 'victor.fraile', 'producer': 'Microsoft: Print To PDF', 'total_pages': 5.0, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'creator': 'PyPDF', 'effective_date': '2025-07-27', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'text': None, 'page_label': '1', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown'}\n\nDocument: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\n Progressive Maintenance\nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempoAyuda Visual\nPAG\n28/10/2020 3\nFECHAREVISADO POR\nMARINA QUESADA BERNARDO RUIZ\nEDITADO POR\n8. Apoyar el grupo de guillotina y quitar los 4 tornillos. N.B: El peso del grupo de guillotina es de aprox. 50 Kg.9. Retirar el tornillo M5 que fija la hélice A10. Retire los 3 tornillos M5, para extraer la brida de centrado del sinfín.11. Quitar los 3 tornillos M5 A\nMetadata: {'page': 2.0, 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'total_pages': 5.0, 'producer': 'Microsoft: Print To PDF', 'author': 'victor.fraile', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'creator': 'PyPDF', 'text': None, 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'effective_date': '2025-07-27', 'page_label': '3', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown'}\n\nDocument: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\n Progressive Maintenance\nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempo\nFECHA PAG\nMARINA QUESADA BERNARDO RUÍZ 28/10/2020 4\nEDITADO POR REVISADO POR\nAyuda Visual\n12. Retire sólo las tuercas de soporte M8 B, para facilitar el reensamble. Una vez retirado el cono dosificador, retire el sello de teflón Cysustitúyalo por el nuevo suministrado. 13. Retire la tuerca de anillo M12 A, con la llave adecuada. A continuación, retire los 8 tornillos M8 B, situados en la brida.14. Retire la lengua UNI 6604 A(5x5x25).Después de quitar la tuerca de anillo M25 B.\nMetadata: {'page': 3.0, 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'total_pages': 5.0, 'producer': 'Microsoft: Print To PDF', 'author': 'victor.fraile', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'creator': 'PyPDF', 'page_label': '4', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'text': None, 'effective_date': '2025-07-27', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown'}"}
+[2025-07-27 16:19:22] [INFO] my_app_logger: Retrieved documents: Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+Proposito
+Dónde
+Cuándo
+Personas
+Habilidades 
+Especiales
+Duración
+Información
+Materiales
+Aspecto 
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+Tiempo
+EDITADO POR REVISADO POR FECHA PAG
+MARINA QUESADA BERNARDO RUIZ 28/10/2020 1
+Pesador automática de pigmentos
+Acceso a husillo de la TDE de la pesadora de pigmentos
+Herramientas
+-
+2 personaS (técnico de mantenimiento)
+Certificación técnica
+-
+-
+Es obligatorio el uso de guantes y gorra de seguridad
+Ayuda Visual
+Progressive Maintenance
+1. Quitar casquillo de conexión b de la bandeja de recogida del grupo a, desenroscando los dos tornillos de fijación de la parte inferior.2. Mida la distancia (H) del soporte de fijación.Desatornille las 2 PNP (1, 2), desenroscando las dos tuercas de fijación.3. Quitar los 4 tornillos M8, presentes en el punto A
+Metadata: {'page': 0.0, 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'author': 'victor.fraile', 'producer': 'Microsoft: Print To PDF', 'total_pages': 5.0, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'creator': 'PyPDF', 'effective_date': '2025-07-27', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'text': None, 'page_label': '1', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown'}
+
+Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+ Progressive Maintenance
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+TiempoAyuda Visual
+PAG
+28/10/2020 3
+FECHAREVISADO POR
+MARINA QUESADA BERNARDO RUIZ
+EDITADO POR
+8. Apoyar el grupo de guillotina y quitar los 4 tornillos. N.B: El peso del grupo de guillotina es de aprox. 50 Kg.9. Retirar el tornillo M5 que fija la hélice A10. Retire los 3 tornillos M5, para extraer la brida de centrado del sinfín.11. Quitar los 3 tornillos M5 A
+Metadata: {'page': 2.0, 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'total_pages': 5.0, 'producer': 'Microsoft: Print To PDF', 'author': 'victor.fraile', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'creator': 'PyPDF', 'text': None, 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'effective_date': '2025-07-27', 'page_label': '3', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown'}
+
+Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+ Progressive Maintenance
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+Tiempo
+FECHA PAG
+MARINA QUESADA BERNARDO RUÍZ 28/10/2020 4
+EDITADO POR REVISADO POR
+Ayuda Visual
+12. Retire sólo las tuercas de soporte M8 B, para facilitar el reensamble. Una vez retirado el cono dosificador, retire el sello de teflón Cysustitúyalo por el nuevo suministrado. 13. Retire la tuerca de anillo M12 A, con la llave adecuada. A continuación, retire los 8 tornillos M8 B, situados en la brida.14. Retire la lengua UNI 6604 A(5x5x25).Después de quitar la tuerca de anillo M25 B.
+Metadata: {'page': 3.0, 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'total_pages': 5.0, 'producer': 'Microsoft: Print To PDF', 'author': 'victor.fraile', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'creator': 'PyPDF', 'page_label': '4', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'text': None, 'effective_date': '2025-07-27', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown'}
+[2025-07-27 16:19:23] [INFO] my_app_logger: Structured grading response: grade='yes'
+[2025-07-27 16:19:25] [INFO] my_app_logger: Query processed successfully in 10.79s (C-RAG: 9.68s)
+[2025-07-27 16:21:29] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:21:29] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:21:36] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:21:36] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:21:36] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:21:36] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:21:36] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:21:36] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:21:36] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:21:37] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:21:37] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.27 seconds!
+[2025-07-27 16:21:37] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:21:37] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:21:37] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:21:37] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:21:37] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:21:37] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:22:03] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:22:03] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:22:11] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:22:11] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:22:11] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:22:11] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:22:11] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:22:11] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:22:11] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:22:13] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:22:13] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.84 seconds!
+[2025-07-27 16:22:13] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:22:13] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:22:13] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:22:13] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:22:13] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:22:13] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:22:19] [INFO] my_app_logger: 🔍 Inferring metadata from query...
+[2025-07-27 16:22:20] [INFO] my_app_logger: QueryReturn(objects=[Object(uuid=_WeaviateUUIDInt('07c2d769-8ebb-4299-993e-c8bafd38b1b2'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'effective_date': '2025-07-27', 'version': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('0f97f1d5-e0fc-48c2-989f-5e006f1439e2'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'effective_date': '2025-07-27', 'version': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('4e2850f0-f66e-4790-ae1b-7ebd44bb035b'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'effective_date': '2025-07-27', 'version': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('a1e3041f-b9ca-4eb6-9adf-a3b3637f8f37'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'effective_date': '2025-07-27', 'version': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('f2ce5513-86e7-4397-b129-22f4d6892208'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'effective_date': '2025-07-27', 'version': 'unknown'}, references=None, vector={}, collection='DocumentIndex')])
+[2025-07-27 16:22:20] [INFO] my_app_logger: Available metadata: {'doc_ids': ['Acceso a husillo de la TDE de la pesadora de pigmentos'], 'versions': ['unknown'], 'effective_dates': ['2025-07-27'], 'sources': ['Acceso a husillo de la TDE de la pesadora de pigmentos.pdf'], 'total_documents': 5}
+[2025-07-27 16:22:21] [INFO] my_app_logger: Structured metadata response: doc_id='Acceso a husillo de la TDE de la pesadora de pigmentos' version='unknown' effective_date='2025-07-27'
+[2025-07-27 16:22:21] [INFO] my_app_logger: 🤖 Running C-RAG workflow...
+[2025-07-27 16:22:21] [INFO] my_app_logger: Filtering by doc_id: Acceso a husillo de la TDE de la pesadora de pigmentos
+[2025-07-27 16:22:21] [INFO] my_app_logger: Filtering by effective_date: 2025-07-27
+[2025-07-27 16:22:25] [INFO] my_app_logger: Metadata filters type: <class 'weaviate.collections.classes.filters._FilterAnd'>
+[2025-07-27 16:22:25] [INFO] my_app_logger: Metadata filters value: <weaviate.collections.classes.filters._FilterAnd object at 0x7f42fa6e9000>
+[2025-07-27 16:22:27] [INFO] my_app_logger: Retrieved 3 documents after filtering and reranking
+[2025-07-27 16:22:27] [INFO] my_app_logger: Retrieved documents: {'documents': "Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\nProposito\nDónde\nCuándo\nPersonas\nHabilidades \nEspeciales\nDuración\nInformación\nMateriales\nAspecto \nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempo\nEDITADO POR REVISADO POR FECHA PAG\nMARINA QUESADA BERNARDO RUIZ 28/10/2020 1\nPesador automática de pigmentos\nAcceso a husillo de la TDE de la pesadora de pigmentos\nHerramientas\n-\n2 personaS (técnico de mantenimiento)\nCertificación técnica\n-\n-\nEs obligatorio el uso de guantes y gorra de seguridad\nAyuda Visual\nProgressive Maintenance\n1. Quitar casquillo de conexión b de la bandeja de recogida del grupo a, desenroscando los dos tornillos de fijación de la parte inferior.2. Mida la distancia (H) del soporte de fijación.Desatornille las 2 PNP (1, 2), desenroscando las dos tuercas de fijación.3. Quitar los 4 tornillos M8, presentes en el punto A\nMetadata: {'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'version': 'unknown', 'page_label': '1', 'author': 'victor.fraile', 'effective_date': '2025-07-27', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'creator': 'PyPDF', 'total_pages': 5.0, 'page': 0.0, 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'producer': 'Microsoft: Print To PDF', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf'}\n\nDocument: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\n Progressive Maintenance\nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempoAyuda Visual\nPAG\n28/10/2020 3\nFECHAREVISADO POR\nMARINA QUESADA BERNARDO RUIZ\nEDITADO POR\n8. Apoyar el grupo de guillotina y quitar los 4 tornillos. N.B: El peso del grupo de guillotina es de aprox. 50 Kg.9. Retirar el tornillo M5 que fija la hélice A10. Retire los 3 tornillos M5, para extraer la brida de centrado del sinfín.11. Quitar los 3 tornillos M5 A\nMetadata: {'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'version': 'unknown', 'page_label': '3', 'author': 'victor.fraile', 'effective_date': '2025-07-27', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'creator': 'PyPDF', 'total_pages': 5.0, 'page': 2.0, 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'producer': 'Microsoft: Print To PDF', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf'}\n\nDocument: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\n Progressive Maintenance\nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempo\nFECHA PAG\nMARINA QUESADA BERNARDO RUÍZ 28/10/2020 4\nEDITADO POR REVISADO POR\nAyuda Visual\n12. Retire sólo las tuercas de soporte M8 B, para facilitar el reensamble. Una vez retirado el cono dosificador, retire el sello de teflón Cysustitúyalo por el nuevo suministrado. 13. Retire la tuerca de anillo M12 A, con la llave adecuada. A continuación, retire los 8 tornillos M8 B, situados en la brida.14. Retire la lengua UNI 6604 A(5x5x25).Después de quitar la tuerca de anillo M25 B.\nMetadata: {'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'version': 'unknown', 'page_label': '4', 'author': 'victor.fraile', 'effective_date': '2025-07-27', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'creator': 'PyPDF', 'total_pages': 5.0, 'page': 3.0, 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'producer': 'Microsoft: Print To PDF', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf'}"}
+[2025-07-27 16:22:27] [INFO] my_app_logger: Retrieved documents: Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+Proposito
+Dónde
+Cuándo
+Personas
+Habilidades 
+Especiales
+Duración
+Información
+Materiales
+Aspecto 
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+Tiempo
+EDITADO POR REVISADO POR FECHA PAG
+MARINA QUESADA BERNARDO RUIZ 28/10/2020 1
+Pesador automática de pigmentos
+Acceso a husillo de la TDE de la pesadora de pigmentos
+Herramientas
+-
+2 personaS (técnico de mantenimiento)
+Certificación técnica
+-
+-
+Es obligatorio el uso de guantes y gorra de seguridad
+Ayuda Visual
+Progressive Maintenance
+1. Quitar casquillo de conexión b de la bandeja de recogida del grupo a, desenroscando los dos tornillos de fijación de la parte inferior.2. Mida la distancia (H) del soporte de fijación.Desatornille las 2 PNP (1, 2), desenroscando las dos tuercas de fijación.3. Quitar los 4 tornillos M8, presentes en el punto A
+Metadata: {'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'version': 'unknown', 'page_label': '1', 'author': 'victor.fraile', 'effective_date': '2025-07-27', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'creator': 'PyPDF', 'total_pages': 5.0, 'page': 0.0, 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'producer': 'Microsoft: Print To PDF', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf'}
+
+Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+ Progressive Maintenance
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+TiempoAyuda Visual
+PAG
+28/10/2020 3
+FECHAREVISADO POR
+MARINA QUESADA BERNARDO RUIZ
+EDITADO POR
+8. Apoyar el grupo de guillotina y quitar los 4 tornillos. N.B: El peso del grupo de guillotina es de aprox. 50 Kg.9. Retirar el tornillo M5 que fija la hélice A10. Retire los 3 tornillos M5, para extraer la brida de centrado del sinfín.11. Quitar los 3 tornillos M5 A
+Metadata: {'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'version': 'unknown', 'page_label': '3', 'author': 'victor.fraile', 'effective_date': '2025-07-27', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'creator': 'PyPDF', 'total_pages': 5.0, 'page': 2.0, 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'producer': 'Microsoft: Print To PDF', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf'}
+
+Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+ Progressive Maintenance
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+Tiempo
+FECHA PAG
+MARINA QUESADA BERNARDO RUÍZ 28/10/2020 4
+EDITADO POR REVISADO POR
+Ayuda Visual
+12. Retire sólo las tuercas de soporte M8 B, para facilitar el reensamble. Una vez retirado el cono dosificador, retire el sello de teflón Cysustitúyalo por el nuevo suministrado. 13. Retire la tuerca de anillo M12 A, con la llave adecuada. A continuación, retire los 8 tornillos M8 B, situados en la brida.14. Retire la lengua UNI 6604 A(5x5x25).Después de quitar la tuerca de anillo M25 B.
+Metadata: {'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'version': 'unknown', 'page_label': '4', 'author': 'victor.fraile', 'effective_date': '2025-07-27', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'creator': 'PyPDF', 'total_pages': 5.0, 'page': 3.0, 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'producer': 'Microsoft: Print To PDF', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf'}
+[2025-07-27 16:22:28] [INFO] my_app_logger: Structured grading response: grade='yes'
+[2025-07-27 16:22:31] [INFO] my_app_logger: Query processed successfully in 11.32s (C-RAG: 9.73s)
+[2025-07-27 16:23:30] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:23:30] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:23:37] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:23:37] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:23:37] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:23:37] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:23:37] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:23:37] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:23:37] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:23:38] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:23:38] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.33 seconds!
+[2025-07-27 16:23:38] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:23:38] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:23:38] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:23:38] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:23:38] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:23:38] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:23:38] [INFO] my_app_logger: 🔍 Inferring metadata from query...
+[2025-07-27 16:23:39] [INFO] my_app_logger: QueryReturn(objects=[Object(uuid=_WeaviateUUIDInt('07c2d769-8ebb-4299-993e-c8bafd38b1b2'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'effective_date': '2025-07-27', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'version': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('0f97f1d5-e0fc-48c2-989f-5e006f1439e2'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'effective_date': '2025-07-27', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'version': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('4e2850f0-f66e-4790-ae1b-7ebd44bb035b'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'effective_date': '2025-07-27', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'version': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('a1e3041f-b9ca-4eb6-9adf-a3b3637f8f37'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'effective_date': '2025-07-27', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'version': 'unknown'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('f2ce5513-86e7-4397-b129-22f4d6892208'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'effective_date': '2025-07-27', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'version': 'unknown'}, references=None, vector={}, collection='DocumentIndex')])
+[2025-07-27 16:23:39] [INFO] my_app_logger: Available metadata: {'doc_ids': ['Acceso a husillo de la TDE de la pesadora de pigmentos'], 'versions': ['unknown'], 'effective_dates': ['2025-07-27'], 'sources': ['Acceso a husillo de la TDE de la pesadora de pigmentos.pdf'], 'total_documents': 5}
+[2025-07-27 16:23:40] [INFO] my_app_logger: Structured metadata response: doc_id='Acceso a husillo de la TDE de la pesadora de pigmentos' version='unknown' effective_date='unknown'
+[2025-07-27 16:23:40] [INFO] my_app_logger: 🤖 Running C-RAG workflow...
+[2025-07-27 16:23:40] [INFO] my_app_logger: Filtering by doc_id: Acceso a husillo de la TDE de la pesadora de pigmentos
+[2025-07-27 16:23:44] [INFO] my_app_logger: Metadata filters type: <class 'weaviate.collections.classes.filters._FilterValue'>
+[2025-07-27 16:23:44] [INFO] my_app_logger: Metadata filters value: value='Acceso a husillo de la TDE de la pesadora de pigmentos' operator=<_Operator.EQUAL: 'Equal'> target='doc_id'
+[2025-07-27 16:23:47] [INFO] my_app_logger: Retrieved 3 documents after filtering and reranking
+[2025-07-27 16:23:47] [INFO] my_app_logger: Retrieved documents: {'documents': "Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\nProposito\nDónde\nCuándo\nPersonas\nHabilidades \nEspeciales\nDuración\nInformación\nMateriales\nAspecto \nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempo\nEDITADO POR REVISADO POR FECHA PAG\nMARINA QUESADA BERNARDO RUIZ 28/10/2020 1\nPesador automática de pigmentos\nAcceso a husillo de la TDE de la pesadora de pigmentos\nHerramientas\n-\n2 personaS (técnico de mantenimiento)\nCertificación técnica\n-\n-\nEs obligatorio el uso de guantes y gorra de seguridad\nAyuda Visual\nProgressive Maintenance\n1. Quitar casquillo de conexión b de la bandeja de recogida del grupo a, desenroscando los dos tornillos de fijación de la parte inferior.2. Mida la distancia (H) del soporte de fijación.Desatornille las 2 PNP (1, 2), desenroscando las dos tuercas de fijación.3. Quitar los 4 tornillos M8, presentes en el punto A\nMetadata: {'creator': 'PyPDF', 'page': 0.0, 'producer': 'Microsoft: Print To PDF', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'author': 'victor.fraile', 'total_pages': 5.0, 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'text': None, 'page_label': '1', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'effective_date': '2025-07-27', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'version': 'unknown'}\n\nDocument: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\n Progressive Maintenance\nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempoAyuda Visual\nPAG\n28/10/2020 3\nFECHAREVISADO POR\nMARINA QUESADA BERNARDO RUIZ\nEDITADO POR\n8. Apoyar el grupo de guillotina y quitar los 4 tornillos. N.B: El peso del grupo de guillotina es de aprox. 50 Kg.9. Retirar el tornillo M5 que fija la hélice A10. Retire los 3 tornillos M5, para extraer la brida de centrado del sinfín.11. Quitar los 3 tornillos M5 A\nMetadata: {'creator': 'PyPDF', 'page': 2.0, 'producer': 'Microsoft: Print To PDF', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'author': 'victor.fraile', 'total_pages': 5.0, 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'text': None, 'page_label': '3', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'effective_date': '2025-07-27', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'version': 'unknown'}\n\nDocument: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\n Progressive Maintenance\nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempo\nFECHA PAG\nMARINA QUESADA BERNARDO RUÍZ 28/10/2020 4\nEDITADO POR REVISADO POR\nAyuda Visual\n12. Retire sólo las tuercas de soporte M8 B, para facilitar el reensamble. Una vez retirado el cono dosificador, retire el sello de teflón Cysustitúyalo por el nuevo suministrado. 13. Retire la tuerca de anillo M12 A, con la llave adecuada. A continuación, retire los 8 tornillos M8 B, situados en la brida.14. Retire la lengua UNI 6604 A(5x5x25).Después de quitar la tuerca de anillo M25 B.\nMetadata: {'creator': 'PyPDF', 'page': 3.0, 'producer': 'Microsoft: Print To PDF', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'author': 'victor.fraile', 'total_pages': 5.0, 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'text': None, 'page_label': '4', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'effective_date': '2025-07-27', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'version': 'unknown'}"}
+[2025-07-27 16:23:47] [INFO] my_app_logger: Retrieved documents: Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+Proposito
+Dónde
+Cuándo
+Personas
+Habilidades 
+Especiales
+Duración
+Información
+Materiales
+Aspecto 
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+Tiempo
+EDITADO POR REVISADO POR FECHA PAG
+MARINA QUESADA BERNARDO RUIZ 28/10/2020 1
+Pesador automática de pigmentos
+Acceso a husillo de la TDE de la pesadora de pigmentos
+Herramientas
+-
+2 personaS (técnico de mantenimiento)
+Certificación técnica
+-
+-
+Es obligatorio el uso de guantes y gorra de seguridad
+Ayuda Visual
+Progressive Maintenance
+1. Quitar casquillo de conexión b de la bandeja de recogida del grupo a, desenroscando los dos tornillos de fijación de la parte inferior.2. Mida la distancia (H) del soporte de fijación.Desatornille las 2 PNP (1, 2), desenroscando las dos tuercas de fijación.3. Quitar los 4 tornillos M8, presentes en el punto A
+Metadata: {'creator': 'PyPDF', 'page': 0.0, 'producer': 'Microsoft: Print To PDF', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'author': 'victor.fraile', 'total_pages': 5.0, 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'text': None, 'page_label': '1', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'effective_date': '2025-07-27', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'version': 'unknown'}
+
+Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+ Progressive Maintenance
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+TiempoAyuda Visual
+PAG
+28/10/2020 3
+FECHAREVISADO POR
+MARINA QUESADA BERNARDO RUIZ
+EDITADO POR
+8. Apoyar el grupo de guillotina y quitar los 4 tornillos. N.B: El peso del grupo de guillotina es de aprox. 50 Kg.9. Retirar el tornillo M5 que fija la hélice A10. Retire los 3 tornillos M5, para extraer la brida de centrado del sinfín.11. Quitar los 3 tornillos M5 A
+Metadata: {'creator': 'PyPDF', 'page': 2.0, 'producer': 'Microsoft: Print To PDF', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'author': 'victor.fraile', 'total_pages': 5.0, 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'text': None, 'page_label': '3', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'effective_date': '2025-07-27', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'version': 'unknown'}
+
+Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+ Progressive Maintenance
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+Tiempo
+FECHA PAG
+MARINA QUESADA BERNARDO RUÍZ 28/10/2020 4
+EDITADO POR REVISADO POR
+Ayuda Visual
+12. Retire sólo las tuercas de soporte M8 B, para facilitar el reensamble. Una vez retirado el cono dosificador, retire el sello de teflón Cysustitúyalo por el nuevo suministrado. 13. Retire la tuerca de anillo M12 A, con la llave adecuada. A continuación, retire los 8 tornillos M8 B, situados en la brida.14. Retire la lengua UNI 6604 A(5x5x25).Después de quitar la tuerca de anillo M25 B.
+Metadata: {'creator': 'PyPDF', 'page': 3.0, 'producer': 'Microsoft: Print To PDF', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'author': 'victor.fraile', 'total_pages': 5.0, 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'text': None, 'page_label': '4', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'effective_date': '2025-07-27', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'version': 'unknown'}
+[2025-07-27 16:23:48] [INFO] my_app_logger: Structured grading response: grade='yes'
+[2025-07-27 16:23:50] [INFO] my_app_logger: Query processed successfully in 12.14s (C-RAG: 10.68s)
+[2025-07-27 16:25:01] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:25:01] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:25:09] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:25:09] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:25:09] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:25:09] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:25:09] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:25:09] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:25:09] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:25:10] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:25:10] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.35 seconds!
+[2025-07-27 16:25:10] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:25:10] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:25:10] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:25:10] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:25:10] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:25:10] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:25:10] [INFO] my_app_logger: 🔍 Inferring metadata from query...
+[2025-07-27 16:25:11] [INFO] my_app_logger: QueryReturn(objects=[Object(uuid=_WeaviateUUIDInt('07c2d769-8ebb-4299-993e-c8bafd38b1b2'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'effective_date': '2025-07-27', 'version': 'unknown', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('0f97f1d5-e0fc-48c2-989f-5e006f1439e2'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'effective_date': '2025-07-27', 'version': 'unknown', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('4e2850f0-f66e-4790-ae1b-7ebd44bb035b'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'effective_date': '2025-07-27', 'version': 'unknown', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('a1e3041f-b9ca-4eb6-9adf-a3b3637f8f37'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'effective_date': '2025-07-27', 'version': 'unknown', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('f2ce5513-86e7-4397-b129-22f4d6892208'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'effective_date': '2025-07-27', 'version': 'unknown', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos'}, references=None, vector={}, collection='DocumentIndex')])
+[2025-07-27 16:25:11] [INFO] my_app_logger: Available metadata: {'doc_ids': ['Acceso a husillo de la TDE de la pesadora de pigmentos'], 'versions': ['unknown'], 'effective_dates': ['2025-07-27'], 'sources': ['Acceso a husillo de la TDE de la pesadora de pigmentos.pdf'], 'total_documents': 5}
+[2025-07-27 16:25:13] [INFO] my_app_logger: Structured metadata response: doc_id='Acceso a husillo de la TDE de la pesadora de pigmentos' version='unknown' effective_date='2025-07-27'
+[2025-07-27 16:25:13] [INFO] my_app_logger: 🤖 Running C-RAG workflow...
+[2025-07-27 16:25:13] [INFO] my_app_logger: Filtering by doc_id: Acceso a husillo de la TDE de la pesadora de pigmentos
+[2025-07-27 16:25:13] [INFO] my_app_logger: Filtering by effective_date: 2025-07-27
+[2025-07-27 16:25:17] [INFO] my_app_logger: Metadata filters type: <class 'weaviate.collections.classes.filters._FilterAnd'>
+[2025-07-27 16:25:17] [INFO] my_app_logger: Metadata filters value: <weaviate.collections.classes.filters._FilterAnd object at 0x7fafccad4fd0>
+[2025-07-27 16:25:20] [INFO] my_app_logger: Retrieved 3 documents after filtering and reranking
+[2025-07-27 16:25:20] [INFO] my_app_logger: Retrieved documents: {'documents': "Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\nProposito\nDónde\nCuándo\nPersonas\nHabilidades \nEspeciales\nDuración\nInformación\nMateriales\nAspecto \nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempo\nEDITADO POR REVISADO POR FECHA PAG\nMARINA QUESADA BERNARDO RUIZ 28/10/2020 1\nPesador automática de pigmentos\nAcceso a husillo de la TDE de la pesadora de pigmentos\nHerramientas\n-\n2 personaS (técnico de mantenimiento)\nCertificación técnica\n-\n-\nEs obligatorio el uso de guantes y gorra de seguridad\nAyuda Visual\nProgressive Maintenance\n1. Quitar casquillo de conexión b de la bandeja de recogida del grupo a, desenroscando los dos tornillos de fijación de la parte inferior.2. Mida la distancia (H) del soporte de fijación.Desatornille las 2 PNP (1, 2), desenroscando las dos tuercas de fijación.3. Quitar los 4 tornillos M8, presentes en el punto A\nMetadata: {'effective_date': '2025-07-27', 'text': None, 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'creator': 'PyPDF', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown', 'page_label': '1', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'author': 'victor.fraile', 'producer': 'Microsoft: Print To PDF', 'total_pages': 5.0, 'page': 0.0}\n\nDocument: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\n Progressive Maintenance\nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempoAyuda Visual\nPAG\n28/10/2020 3\nFECHAREVISADO POR\nMARINA QUESADA BERNARDO RUIZ\nEDITADO POR\n8. Apoyar el grupo de guillotina y quitar los 4 tornillos. N.B: El peso del grupo de guillotina es de aprox. 50 Kg.9. Retirar el tornillo M5 que fija la hélice A10. Retire los 3 tornillos M5, para extraer la brida de centrado del sinfín.11. Quitar los 3 tornillos M5 A\nMetadata: {'effective_date': '2025-07-27', 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'creator': 'PyPDF', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown', 'page_label': '3', 'author': 'victor.fraile', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'producer': 'Microsoft: Print To PDF', 'total_pages': 5.0, 'page': 2.0}\n\nDocument: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\n Progressive Maintenance\nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempo\nFECHA PAG\nMARINA QUESADA BERNARDO RUÍZ 28/10/2020 4\nEDITADO POR REVISADO POR\nAyuda Visual\n12. Retire sólo las tuercas de soporte M8 B, para facilitar el reensamble. Una vez retirado el cono dosificador, retire el sello de teflón Cysustitúyalo por el nuevo suministrado. 13. Retire la tuerca de anillo M12 A, con la llave adecuada. A continuación, retire los 8 tornillos M8 B, situados en la brida.14. Retire la lengua UNI 6604 A(5x5x25).Después de quitar la tuerca de anillo M25 B.\nMetadata: {'effective_date': '2025-07-27', 'text': None, 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'creator': 'PyPDF', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown', 'page_label': '4', 'author': 'victor.fraile', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'producer': 'Microsoft: Print To PDF', 'total_pages': 5.0, 'page': 3.0}"}
+[2025-07-27 16:25:20] [INFO] my_app_logger: Retrieved documents: Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+Proposito
+Dónde
+Cuándo
+Personas
+Habilidades 
+Especiales
+Duración
+Información
+Materiales
+Aspecto 
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+Tiempo
+EDITADO POR REVISADO POR FECHA PAG
+MARINA QUESADA BERNARDO RUIZ 28/10/2020 1
+Pesador automática de pigmentos
+Acceso a husillo de la TDE de la pesadora de pigmentos
+Herramientas
+-
+2 personaS (técnico de mantenimiento)
+Certificación técnica
+-
+-
+Es obligatorio el uso de guantes y gorra de seguridad
+Ayuda Visual
+Progressive Maintenance
+1. Quitar casquillo de conexión b de la bandeja de recogida del grupo a, desenroscando los dos tornillos de fijación de la parte inferior.2. Mida la distancia (H) del soporte de fijación.Desatornille las 2 PNP (1, 2), desenroscando las dos tuercas de fijación.3. Quitar los 4 tornillos M8, presentes en el punto A
+Metadata: {'effective_date': '2025-07-27', 'text': None, 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'creator': 'PyPDF', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown', 'page_label': '1', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'author': 'victor.fraile', 'producer': 'Microsoft: Print To PDF', 'total_pages': 5.0, 'page': 0.0}
+
+Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+ Progressive Maintenance
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+TiempoAyuda Visual
+PAG
+28/10/2020 3
+FECHAREVISADO POR
+MARINA QUESADA BERNARDO RUIZ
+EDITADO POR
+8. Apoyar el grupo de guillotina y quitar los 4 tornillos. N.B: El peso del grupo de guillotina es de aprox. 50 Kg.9. Retirar el tornillo M5 que fija la hélice A10. Retire los 3 tornillos M5, para extraer la brida de centrado del sinfín.11. Quitar los 3 tornillos M5 A
+Metadata: {'effective_date': '2025-07-27', 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'creator': 'PyPDF', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown', 'page_label': '3', 'author': 'victor.fraile', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'producer': 'Microsoft: Print To PDF', 'total_pages': 5.0, 'page': 2.0}
+
+Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+ Progressive Maintenance
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+Tiempo
+FECHA PAG
+MARINA QUESADA BERNARDO RUÍZ 28/10/2020 4
+EDITADO POR REVISADO POR
+Ayuda Visual
+12. Retire sólo las tuercas de soporte M8 B, para facilitar el reensamble. Una vez retirado el cono dosificador, retire el sello de teflón Cysustitúyalo por el nuevo suministrado. 13. Retire la tuerca de anillo M12 A, con la llave adecuada. A continuación, retire los 8 tornillos M8 B, situados en la brida.14. Retire la lengua UNI 6604 A(5x5x25).Después de quitar la tuerca de anillo M25 B.
+Metadata: {'effective_date': '2025-07-27', 'text': None, 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'creator': 'PyPDF', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown', 'page_label': '4', 'author': 'victor.fraile', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'producer': 'Microsoft: Print To PDF', 'total_pages': 5.0, 'page': 3.0}
+[2025-07-27 16:25:21] [INFO] my_app_logger: Structured grading response: grade='yes'
+[2025-07-27 16:25:23] [INFO] my_app_logger: Query processed successfully in 12.21s (C-RAG: 9.95s)
+[2025-07-27 16:25:38] [INFO] my_app_logger: Processed collection 'DocumentIndex': 5 documents, 15 properties
+[2025-07-27 16:26:01] [INFO] my_app_logger: Found 1 collections to clear
+[2025-07-27 16:26:01] [INFO] my_app_logger: Successfully cleared collection 'DocumentIndex' with 5 documents
+[2025-07-27 16:26:01] [INFO] my_app_logger: ✅ Clear operation completed successfully in 0.40s
+[2025-07-27 16:26:01] [INFO] my_app_logger: 📊 Results: 1 collections cleared, 5 documents deleted
+[2025-07-27 16:26:11] [INFO] my_app_logger: Processing file: Acceso a husillo de la TDE de la pesadora de pigmentos.pdf (size: 1257047 bytes)
+[2025-07-27 16:26:11] [INFO] my_app_logger: Starting document ingestion for: Acceso a husillo de la TDE de la pesadora de pigmentos.pdf
+[2025-07-27 16:26:12] [INFO] my_app_logger: Extracted metadata from document: {'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'version': 'unknown', 'effective_date': '2025-07-27', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf'}
+[2025-07-27 16:26:12] [INFO] my_app_logger: Connected to Weaviate successfully
+[2025-07-27 16:26:12] [INFO] my_app_logger: 💾 Storing documents in Weaviate vector database...
+[2025-07-27 16:26:15] [INFO] my_app_logger: Document ingestion completed successfully in 3.79s
+[2025-07-27 16:28:02] [INFO] my_app_logger: 🔍 Inferring metadata from query...
+[2025-07-27 16:28:02] [INFO] my_app_logger: QueryReturn(objects=[Object(uuid=_WeaviateUUIDInt('07315ebc-cecc-44bb-b246-7e5de735e626'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'effective_date': '2025-07-27', 'version': 'unknown', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('239663cc-b486-442c-868e-be0f0fe0abfd'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'effective_date': '2025-07-27', 'version': 'unknown', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('85ef6bfd-fc92-4385-ba05-28bb4ccecb10'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'effective_date': '2025-07-27', 'version': 'unknown', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('ec5814a5-2b54-4fb3-be50-66754cd73cb4'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'effective_date': '2025-07-27', 'version': 'unknown', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos'}, references=None, vector={}, collection='DocumentIndex'), Object(uuid=_WeaviateUUIDInt('ee744761-b116-4b3c-8322-3d4c27460b5c'), metadata=MetadataReturn(creation_time=None, last_update_time=None, distance=None, certainty=None, score=None, explain_score=None, is_consistent=None, rerank_score=None), properties={'effective_date': '2025-07-27', 'version': 'unknown', 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos'}, references=None, vector={}, collection='DocumentIndex')])
+[2025-07-27 16:28:02] [INFO] my_app_logger: Available metadata: {'doc_ids': ['Acceso a husillo de la TDE de la pesadora de pigmentos'], 'versions': ['unknown'], 'effective_dates': ['2025-07-27'], 'sources': ['Acceso a husillo de la TDE de la pesadora de pigmentos.pdf'], 'total_documents': 5}
+[2025-07-27 16:28:03] [INFO] my_app_logger: Structured metadata response: doc_id='Acceso a husillo de la TDE de la pesadora de pigmentos' version='unknown' effective_date='2025-07-27'
+[2025-07-27 16:28:03] [INFO] my_app_logger: 🤖 Running C-RAG workflow...
+[2025-07-27 16:28:04] [INFO] my_app_logger: Filtering by doc_id: Acceso a husillo de la TDE de la pesadora de pigmentos
+[2025-07-27 16:28:04] [INFO] my_app_logger: Filtering by effective_date: 2025-07-27
+[2025-07-27 16:28:07] [INFO] my_app_logger: Metadata filters type: <class 'weaviate.collections.classes.filters._FilterAnd'>
+[2025-07-27 16:28:07] [INFO] my_app_logger: Metadata filters value: <weaviate.collections.classes.filters._FilterAnd object at 0x7fafcbc47eb0>
+[2025-07-27 16:28:09] [INFO] my_app_logger: Retrieved 3 documents after filtering and reranking
+[2025-07-27 16:28:09] [INFO] my_app_logger: Retrieved documents: {'documents': "Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\nProposito\nDónde\nCuándo\nPersonas\nHabilidades \nEspeciales\nDuración\nInformación\nMateriales\nAspecto \nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempo\nEDITADO POR REVISADO POR FECHA PAG\nMARINA QUESADA BERNARDO RUIZ 28/10/2020 1\nPesador automática de pigmentos\nAcceso a husillo de la TDE de la pesadora de pigmentos\nHerramientas\n-\n2 personaS (técnico de mantenimiento)\nCertificación técnica\n-\n-\nEs obligatorio el uso de guantes y gorra de seguridad\nAyuda Visual\nProgressive Maintenance\n1. Quitar casquillo de conexión b de la bandeja de recogida del grupo a, desenroscando los dos tornillos de fijación de la parte inferior.2. Mida la distancia (H) del soporte de fijación.Desatornille las 2 PNP (1, 2), desenroscando las dos tuercas de fijación.3. Quitar los 4 tornillos M8, presentes en el punto A\nMetadata: {'effective_date': '2025-07-27', 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'creator': 'PyPDF', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown', 'page_label': '1', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'author': 'victor.fraile', 'producer': 'Microsoft: Print To PDF', 'total_pages': 5.0, 'page': 0.0}\n\nDocument: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\n Progressive Maintenance\nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempoAyuda Visual\nPAG\n28/10/2020 3\nFECHAREVISADO POR\nMARINA QUESADA BERNARDO RUIZ\nEDITADO POR\n8. Apoyar el grupo de guillotina y quitar los 4 tornillos. N.B: El peso del grupo de guillotina es de aprox. 50 Kg.9. Retirar el tornillo M5 que fija la hélice A10. Retire los 3 tornillos M5, para extraer la brida de centrado del sinfín.11. Quitar los 3 tornillos M5 A\nMetadata: {'effective_date': '2025-07-27', 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'creator': 'PyPDF', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown', 'page_label': '3', 'author': 'victor.fraile', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'producer': 'Microsoft: Print To PDF', 'total_pages': 5.0, 'page': 2.0}\n\nDocument: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA\nCS1-OPL004 SIMPTWW Lider Mto MEZCLAS\n Progressive Maintenance\nActividad paso a paso EPIS\nHerramientas y/o \ninstrumento de \nmedida\nTiempo\nFECHA PAG\nMARINA QUESADA BERNARDO RUÍZ 28/10/2020 4\nEDITADO POR REVISADO POR\nAyuda Visual\n12. Retire sólo las tuercas de soporte M8 B, para facilitar el reensamble. Una vez retirado el cono dosificador, retire el sello de teflón Cysustitúyalo por el nuevo suministrado. 13. Retire la tuerca de anillo M12 A, con la llave adecuada. A continuación, retire los 8 tornillos M8 B, situados en la brida.14. Retire la lengua UNI 6604 A(5x5x25).Después de quitar la tuerca de anillo M25 B.\nMetadata: {'effective_date': '2025-07-27', 'text': None, 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'creator': 'PyPDF', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown', 'page_label': '4', 'author': 'victor.fraile', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'producer': 'Microsoft: Print To PDF', 'total_pages': 5.0, 'page': 3.0}"}
+[2025-07-27 16:28:09] [INFO] my_app_logger: Retrieved documents: Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+Proposito
+Dónde
+Cuándo
+Personas
+Habilidades 
+Especiales
+Duración
+Información
+Materiales
+Aspecto 
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+Tiempo
+EDITADO POR REVISADO POR FECHA PAG
+MARINA QUESADA BERNARDO RUIZ 28/10/2020 1
+Pesador automática de pigmentos
+Acceso a husillo de la TDE de la pesadora de pigmentos
+Herramientas
+-
+2 personaS (técnico de mantenimiento)
+Certificación técnica
+-
+-
+Es obligatorio el uso de guantes y gorra de seguridad
+Ayuda Visual
+Progressive Maintenance
+1. Quitar casquillo de conexión b de la bandeja de recogida del grupo a, desenroscando los dos tornillos de fijación de la parte inferior.2. Mida la distancia (H) del soporte de fijación.Desatornille las 2 PNP (1, 2), desenroscando las dos tuercas de fijación.3. Quitar los 4 tornillos M8, presentes en el punto A
+Metadata: {'effective_date': '2025-07-27', 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'creator': 'PyPDF', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown', 'page_label': '1', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'author': 'victor.fraile', 'producer': 'Microsoft: Print To PDF', 'total_pages': 5.0, 'page': 0.0}
+
+Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+ Progressive Maintenance
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+TiempoAyuda Visual
+PAG
+28/10/2020 3
+FECHAREVISADO POR
+MARINA QUESADA BERNARDO RUIZ
+EDITADO POR
+8. Apoyar el grupo de guillotina y quitar los 4 tornillos. N.B: El peso del grupo de guillotina es de aprox. 50 Kg.9. Retirar el tornillo M5 que fija la hélice A10. Retire los 3 tornillos M5, para extraer la brida de centrado del sinfín.11. Quitar los 3 tornillos M5 A
+Metadata: {'effective_date': '2025-07-27', 'text': None, 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'creator': 'PyPDF', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown', 'page_label': '3', 'author': 'victor.fraile', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'producer': 'Microsoft: Print To PDF', 'total_pages': 5.0, 'page': 2.0}
+
+Document: DOC Nº TIPO DE DOCUMENTO EMITIDO POR AREA
+CS1-OPL004 SIMPTWW Lider Mto MEZCLAS
+ Progressive Maintenance
+Actividad paso a paso EPIS
+Herramientas y/o 
+instrumento de 
+medida
+Tiempo
+FECHA PAG
+MARINA QUESADA BERNARDO RUÍZ 28/10/2020 4
+EDITADO POR REVISADO POR
+Ayuda Visual
+12. Retire sólo las tuercas de soporte M8 B, para facilitar el reensamble. Una vez retirado el cono dosificador, retire el sello de teflón Cysustitúyalo por el nuevo suministrado. 13. Retire la tuerca de anillo M12 A, con la llave adecuada. A continuación, retire los 8 tornillos M8 B, situados en la brida.14. Retire la lengua UNI 6604 A(5x5x25).Después de quitar la tuerca de anillo M25 B.
+Metadata: {'effective_date': '2025-07-27', 'text': None, 'source': 'Acceso a husillo de la TDE de la pesadora de pigmentos.pdf', 'creationdate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'doc_id': 'Acceso a husillo de la TDE de la pesadora de pigmentos', 'creator': 'PyPDF', 'title': 'SIMPTWW - CS1-OPL004.xlsx', 'version': 'unknown', 'page_label': '4', 'author': 'victor.fraile', 'moddate': datetime.datetime(2021, 1, 7, 9, 32, 58, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600))), 'producer': 'Microsoft: Print To PDF', 'total_pages': 5.0, 'page': 3.0}
+[2025-07-27 16:28:10] [INFO] my_app_logger: Structured grading response: grade='yes'
+[2025-07-27 16:28:13] [INFO] my_app_logger: Query processed successfully in 10.76s (C-RAG: 9.56s)
+[2025-07-27 16:33:31] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:33:31] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:33:38] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:33:38] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:33:38] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:33:38] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:33:38] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:33:38] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:33:38] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:33:39] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:33:39] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.30 seconds!
+[2025-07-27 16:33:39] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:33:39] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:33:39] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:33:39] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:33:39] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:33:39] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:33:40] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:33:40] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:33:46] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:33:46] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:33:46] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:33:46] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:33:46] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:33:46] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:33:46] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:33:48] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:33:48] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.36 seconds!
+[2025-07-27 16:33:48] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:33:48] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:33:48] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:33:48] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:33:48] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:33:48] [INFO] my_app_logger:    - DELETE /clear - Clear indexes
+[2025-07-27 16:33:55] [INFO] my_app_logger: 🛑 RAG application shutting down...
+[2025-07-27 16:33:55] [INFO] my_app_logger: 👋 Goodbye!
+[2025-07-27 16:34:01] [INFO] my_app_logger: 🚀 Starting RAG application initialization...
+[2025-07-27 16:34:01] [INFO] my_app_logger: 📋 Initializing components:
+[2025-07-27 16:34:01] [INFO] my_app_logger:    - FastAPI server
+[2025-07-27 16:34:01] [INFO] my_app_logger:    - Model services
+[2025-07-27 16:34:01] [INFO] my_app_logger:    - CRAG workflow
+[2025-07-27 16:34:01] [INFO] my_app_logger:    - Embedding model (multilingual)
+[2025-07-27 16:34:01] [INFO] my_app_logger: 🔄 Step 1/1: Preloading embedding model...
+[2025-07-27 16:34:03] [INFO] my_app_logger: ✅ Embedding model preloaded successfully
+[2025-07-27 16:34:03] [INFO] my_app_logger: 🎉 RAG application startup completed in 1.45 seconds!
+[2025-07-27 16:34:03] [INFO] my_app_logger: 🌐 Server is ready to accept requests
+[2025-07-27 16:34:03] [INFO] my_app_logger: 📚 Endpoints available:
+[2025-07-27 16:34:03] [INFO] my_app_logger:    - POST /ingest - Upload documents
+[2025-07-27 16:34:03] [INFO] my_app_logger:    - POST /query - Ask questions
+[2025-07-27 16:34:03] [INFO] my_app_logger:    - GET /inspect - View database structure
+[2025-07-27 16:34:03] [INFO] my_app_logger:    - DELETE /clear - Clear indexes

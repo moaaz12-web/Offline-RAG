@@ -1,0 +1,2 @@
+[2025-07-21 15:35:38] [ERROR] my_app_logger: Failed to connect to Weaviate or extract schema: Connection to Weaviate failed. Details: Error: [Errno -3] Temporary failure in name resolution. 
+Is Weaviate running and reachable at http://weaviate_db:8080?

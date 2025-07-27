@@ -1,0 +1,16 @@
+[2025-07-16 01:28:35] [INFO] my_app_logger: Starting ingestion for: moaaz_resume.pdf
+[2025-07-16 01:28:35] [INFO] my_app_logger: Detected file extension: .pdf
+[2025-07-16 01:28:35] [INFO] my_app_logger: Loaded 2 raw documents
+[2025-07-16 01:28:35] [INFO] my_app_logger: Split into 5 document chunks
+[2025-07-16 01:28:35] [INFO] my_app_logger: Extracted metadata: {'filename': 'moaaz', 'date': 'resume', 'source': 'moaaz_resume.pdf'}
+[2025-07-16 01:28:36] [INFO] my_app_logger: Adding documents to ChromaDB...
+[2025-07-16 01:28:39] [INFO] my_app_logger: Successfully added 5 documents to ChromaDB
+[2025-07-16 01:28:39] [INFO] my_app_logger: Removed temporary file: /tmp/b429e1df-4e3a-413a-8134-bc2589c77918_moaaz_resume.pdf
+[2025-07-16 11:19:14] [INFO] my_app_logger: Starting ingestion for: moaaz resume.pdf
+[2025-07-16 11:19:14] [INFO] my_app_logger: Detected file extension: .pdf
+[2025-07-16 11:19:15] [INFO] my_app_logger: Loaded 1 raw documents
+[2025-07-16 11:19:15] [INFO] my_app_logger: Split into 5 document chunks
+[2025-07-16 11:19:15] [INFO] my_app_logger: Extracted metadata: {'filename': 'moaaz resume', 'date': 'default', 'source': 'moaaz resume.pdf'}
+[2025-07-16 11:19:15] [INFO] my_app_logger: Adding documents to ChromaDB...
+[2025-07-16 11:19:17] [INFO] my_app_logger: Successfully added 5 documents to ChromaDB
+[2025-07-16 11:19:17] [INFO] my_app_logger: Removed temporary file: /tmp/1fa1c7b7-713b-4858-9558-dde15130b6b6_moaaz resume.pdf
