@@ -1,0 +1,49 @@
+# Environment files
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/myenv/
+backend/local_models/
+*.egg-info/
+dist/
+build/
+
+# Node.js / React
+frontend/lovable-frontend/node_modules/
+frontend/lovable-frontend/.next/
+frontend/lovable-frontend/out/
+frontend/lovable-frontend/build/
+frontend/lovable-frontend/.env.local
+frontend/lovable-frontend/.env.production
+frontend/lovable-frontend/npm-debug.log*
+frontend/lovable-frontend/yarn-debug.log*
+frontend/lovable-frontend/yarn-error.log*
+
+# Docker
+.dockerignore
+
+# Logs
+*.log
+backend/storage/logs/
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+/tmp/
+*.tmp

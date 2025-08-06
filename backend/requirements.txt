@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+langchain
+langchain-community
+celery
+python-dotenv
+python-multipart
+unstructured
+pypdf
+python-docx
+langgraph
+langchain-weaviate
+langchain-huggingface 
+sentence_transformers
+langchain-ollama

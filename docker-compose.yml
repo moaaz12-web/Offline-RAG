@@ -1,0 +1,78 @@
+version: '3.8'
+
+services:
+  fastapi:
+    build:
+      context: ./backend
+    container_name: rag_backend
+    ports:
+      - "8002:8002"
+    volumes:
+      - ./backend:/app  # for hot-reload
+      - ./backend/local_models:/app/local_models
+    env_file:
+      - .env
+    depends_on:
+      - weaviate
+
+  weaviate:
+    image: cr.weaviate.io/semitechnologies/weaviate:1.32.0
+    container_name: weaviate_db
+    command:
+      - --host
+      - 0.0.0.0
+      - --port
+      - '8080'
+      - --scheme
+      - http
+    ports:
+      - 8080:8080
+      - 50051:50051
+    volumes:
+      - weaviate_data:/var/lib/weaviate
+    restart: on-failure:0
+    environment:
+      QUERY_DEFAULTS_LIMIT: 25
+      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: 'true'
+      PERSISTENCE_DATA_PATH: '/var/lib/weaviate'
+      ENABLE_API_BASED_MODULES: 'true'
+      CLUSTER_HOSTNAME: 'node1'
+
+
+  ollama:
+    image: ollama/ollama
+    container_name: ollama
+    ports:
+      - 11434:11434
+    volumes:
+      - ollama_data:/root/.ollama
+    env_file:
+      - .env
+    entrypoint: >
+      /bin/bash -c "
+      ollama serve &
+      sleep 5 &&
+      ollama list | grep \"$${OLLAMA_MODEL}\" || ollama pull \"$${OLLAMA_MODEL}\" &&
+      wait
+      "
+
+  frontend:
+    build:
+      context: ./frontend/lovable-frontend
+    container_name: rag_frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - VITE_API_BASE=http://localhost:8002
+    volumes:
+      - ./frontend/lovable-frontend:/app
+      - /app/node_modules  # prevent overwriting node_modules
+    depends_on:
+      - fastapi
+
+
+
+
+volumes:
+  weaviate_data:
+  ollama_data:
