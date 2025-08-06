@@ -53,7 +53,6 @@ async def lifespan(app: FastAPI):
     logger.info("   - POST /query - Ask questions")
     logger.info("   - GET /inspect - View database structure")
     logger.info("   - DELETE /clear - Clear indexes")
-    logger.info("   - GET /logs - View recent application logs")
 
     yield  # Application is running
 
@@ -278,65 +277,3 @@ def clear_weaviate_index(request: ClearIndexRequest):
             }
         )
 
-@app.get("/logs")
-def get_recent_logs(lines: int = 50):
-    """
-    Get recent log entries from the application log file.
-
-    Args:
-        lines: Number of recent log lines to return (default: 50, max: 500)
-
-    Returns:
-        JSON response with recent log entries
-    """
-    try:
-        # Limit the number of lines to prevent excessive data transfer
-        lines = min(max(lines, 1), 500)
-
-        log_file_path = os.path.join("storage", "logs", "app.log")
-
-        if not os.path.exists(log_file_path):
-            return JSONResponse(
-                status_code=404,
-                content={"error": "Log file not found", "logs": []}
-            )
-
-        # Read the last N lines from the log file
-        with open(log_file_path, 'r', encoding='utf-8') as f:
-            all_lines = f.readlines()
-            recent_lines = all_lines[-lines:] if len(all_lines) > lines else all_lines
-
-        # Parse log entries and return structured data
-        log_entries = []
-        for line in recent_lines:
-            line = line.strip()
-            if line:
-                log_entries.append({
-                    "timestamp": line[:19] if len(line) > 19 else "",
-                    "level": "",
-                    "message": line,
-                    "raw": line
-                })
-
-                # Try to extract log level if it follows the standard format
-                if "] [" in line and line.startswith("["):
-                    try:
-                        parts = line.split("] [", 2)
-                        if len(parts) >= 3:
-                            log_entries[-1]["level"] = parts[1]
-                            log_entries[-1]["message"] = parts[2].split(": ", 1)[-1] if ": " in parts[2] else parts[2]
-                    except:
-                        pass  # Keep the original message if parsing fails
-
-        return {
-            "logs": log_entries,
-            "total_lines": len(log_entries),
-            "requested_lines": lines
-        }
-
-    except Exception as e:
-        logger.error(f"Failed to read log file: {str(e)}")
-        return JSONResponse(
-            status_code=500,
-            content={"error": f"Failed to read logs: {str(e)}", "logs": []}
-        )
